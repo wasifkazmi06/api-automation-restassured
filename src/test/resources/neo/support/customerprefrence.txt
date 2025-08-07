@@ -1,0 +1,6 @@
+{
+    "uuid": ${uuid},
+    "status": "${status}",
+    "type": "${type}",
+    "source": "${source}"
+}

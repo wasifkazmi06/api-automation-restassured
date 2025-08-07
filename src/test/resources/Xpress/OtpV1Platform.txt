@@ -1,0 +1,7 @@
+{
+    "appVersion": "169",
+    "deviceType": "android",
+    "mobile": "${mobile}",
+    "policyId": "1",
+    "tenantId": "ec35b493"
+}

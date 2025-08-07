@@ -1,0 +1,15 @@
+{
+  "consents": [
+    {
+      "key": "test",
+      "value": "testvalue"
+    }
+  ],
+  "scope": "MITC",
+  "source": "LP",
+  "type": "V7",
+  "umUuid": "${umUuid}",
+  "userId": "${userid}",
+  "whitelistedFor15To30Days": true,
+  "deviceIp":4343.3479
+}

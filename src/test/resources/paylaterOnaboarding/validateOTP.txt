@@ -1,0 +1,6 @@
+{
+  "mobile":"${mobile}",
+  "email":"${email}",
+  "otp":"${otp}",
+  "customParams":{}
+}

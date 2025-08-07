@@ -1,0 +1,49 @@
+{
+  "userDetails":{
+        "firstName": "${firstName}",
+        "lastName": "${lastName}",
+            "mobile": "${mobile}",
+        "email": "${email}"
+  },
+  "amount": {
+        "currency": "${currency}",
+        "value": "${amount}"
+  },
+  "merchantTxnId": "${mtx}",
+  "ctx": "${ctx}",
+  "source":"${source}",
+  "returnUrl": "${returnUrl}",
+  "notifyUrl": "https://sboxapi.lazypay.in/temp/merchant/notifyUrl",
+  "isRedirectFlow": ${isRedirectFlow},
+  "address": {
+        "zip": "testzip",
+        "country": "testcountry",
+        "city": "testcity",
+        "street1": "teststreet1",
+        "street2": "teststreet",
+        "state": "teststate"
+      },
+   "productSkuDetails":
+[
+    {
+      "productId":"1zomato0002","description":"1zomatoTestDescript",
+      "attributes":{"size":"32","color":"Green"},
+      "imageUrl":"www.zomato1.com",
+      "shippable":true,
+      "skus":
+        [
+          {
+            "skuId":"1zomatoskuID00123777",
+            "price":10000,
+            "attributes":{"size":"28","color":"28"}
+          }
+        ]
+    }
+  ],
+    "customParams": {
+                                      "Quality":"Good",
+                                      "Quantity":"4",
+                                      "ProductId":"ID1234"
+   }
+
+}

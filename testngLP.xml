@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lazypay">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+    <test thread-count="1" name="LazyPay">
+        <classes>
+            <class name="lazyPay.testLazyPaySanity"/>
+            <!--<class name="lazypay.repaymentFlow.LPRepaymentTests">
+>>>>>>> master
+                <methods>
+                    <include name="verifyLPRepaymentUsingUPI"/>
+                    <include name="verifyLPRepaymentUsingCreditCard"/>
+                    <include name="verifyLPRepaymentUsingNetBanking"/>
+                    <include name="verifyLPRepaymentUsingDebitCard"/>
+                    <include name="verifyValidateVPA"/>
+                    <include name="verifyLPRepaymentFailedUsingUPI"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChatBotSanitySuite" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="1" name="Chatbot Sanity Test Cases" preserve-order="true">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes >
+            <class name="chatbot.ChatBotTest"/>
+            <class name="chatbot.needhelp.NeedHelpTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

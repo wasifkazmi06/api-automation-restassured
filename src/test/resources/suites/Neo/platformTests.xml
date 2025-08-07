@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Platform Automation Suite" annotations="JDK">
+    <test name="US FLOWS">
+        <classes>
+            <class name="platform.userplatform.FindOrCreateUserTest"/>
+            <class name="platform.userplatform.SendOtpTests"/>
+            <class name="platform.userplatform.PlatformLoginTest"/>
+            <class name="platform.userplatform.userLoginOauthTokenGenerationTest"/>
+            <class name="platform.userplatform.GetUserDetailsTest"/>
+            <class name="platform.userplatform.AlphanumericOtpTest"/>
+            <class name="platform.userplatform.bbpsOtpTest"/>
+            <class name="platform.userplatform.AlphanumericOtpTest"/>
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Support Api Tests" annotations="JDK" >
+
+    <test name="LAZYCARD SUPPORTAPI TESTS">
+        <groups>
+            <run>
+                <exclude name="blockCard"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="neo.supportapisTest"/>
+        </packages>
+    </test>
+</suite>

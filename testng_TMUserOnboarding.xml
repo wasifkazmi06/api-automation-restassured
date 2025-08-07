@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LP_TM UserOnboarding" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="1" name="LP_TM user onboarding">
+    <classes>
+        <class name="lazypay.userOnboarding.MakeUserOnboard">
+            <methods>
+                <include name="UserOnboardingV1_NewUser"/>
+                <include name="VerifyLedgerCustId"/>
+                <include name="VerifyAccountId"/>
+                <include name="updateProductVersion"/>
+
+            </methods>
+        </class>
+    </classes>
+    </test>
+</suite>

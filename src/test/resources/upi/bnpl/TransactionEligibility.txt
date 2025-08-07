@@ -1,0 +1,15 @@
+{
+"date":${date},
+"merchantAccessKey":"",
+"acquisitionChannel":"${acquisitionChannel}",
+"amount":{
+"currency":"${currency}",
+"value":"${amount}"
+},
+"merchantId":"${merchantId}",
+"merchantVpa":"${merchantVpa}",
+"remitterDetail":"1",
+"userMobile":"${userMobile}",
+"requestId":"1",
+"remarks":"1"
+}

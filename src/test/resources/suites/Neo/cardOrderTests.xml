@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Card Order Suite" annotations="JDK">
+    <test name=" AUTO ORDER CARD FLOWS">
+        <classes>
+            <class name="neo.supportapisTest.AutoOrderCardFlow"/>
+        </classes>
+    </test>
+    <test name=" PHYSICAL CARD ORDER FLOWS">
+        <classes>
+            <class name="neo.supportapisTest.physicalCardDelivery">
+                <methods>
+                    <exclude name="physilCardDeliveryWithNonKYC" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+{
+    "mobile": "${mobile}",
+    "reason": "${reason}",
+    "panHash": "${panHash}",
+    "productLimits": {
+        "BNPL": {
+          "limit": {
+                "limit": "${bnpl_limitRisk1}"
+            },
+            "reason": "${reason}",
+            "decision": ${decision_bnpl},
+            "interestRates": null
+        }
+    }
+}

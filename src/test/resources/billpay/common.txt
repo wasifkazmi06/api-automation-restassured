@@ -1,0 +1,7 @@
+//category,userbills,upcomingbills,billers,billerdetails
+
+{
+  "sourceSystem": "MBE",
+  "userId": "${userId}"
+}
+

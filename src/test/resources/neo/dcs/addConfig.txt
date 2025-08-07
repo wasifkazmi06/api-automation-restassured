@@ -1,0 +1,7 @@
+{
+    "clientId": "${clientId}",
+    "configStatus": "${configStatus}",
+    "deactivateAt": 0,
+    "key": "${key}",
+    "value": "${value}"
+}

@@ -1,0 +1,12 @@
+{
+  "amount": ${amount},
+  "mock": true,
+  "paymentMode": "${paymentMode}",
+  "paymentModeDetails": {
+  "vpa":"${vpa}",
+  "bankCode":"${bankCode}"
+  },
+  "source": "WEB",
+  "txnRedirectionUrl": "www.google.com",
+  "userId": "${identifier}"
+}

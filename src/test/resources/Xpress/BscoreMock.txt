@@ -1,0 +1,11 @@
+{
+    "identifiers": {
+        "masterUserId": "${masterUserId}"
+    },
+    "expiryTime": 7,
+    "expiryUnit": "DAYS",
+    "data": {
+        "score": 0.23
+    },
+    "delay": 0
+}

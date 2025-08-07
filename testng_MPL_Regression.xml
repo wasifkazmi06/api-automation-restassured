@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MPLBNPLSanitySuite" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="1" name="MPL BNPL Sanity Test Cases" preserve-order="true">
+        <groups>
+            <run>
+                <include name="mpl_regression"/>
+            </run>
+        </groups>
+        <classes >
+            <class name="bnplRisk.risk.RiskAPITests"/>
+            <class name="mpl.EligibilityV0Test"/>
+            <class name="mpl.TransactionAuthorisationVOTest"/>
+        </classes>
+    </test>
+</suite>
+

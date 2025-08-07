@@ -1,0 +1,2681 @@
+{
+   "userInfo": {
+       "panNumber": "${panNumber}",
+       "lastName": "${last_Name} ",
+       "phoneNum": "${phoneNum}",
+       "email": "nitesh.agarwal07@gmail.com",
+       "optionalAddress": "R no 41 GALLI NO 2 SANT DNYANESHWAR NAGAR OPP MUMBAI BANK,BANDRA EAST, MUMBAI SUBURBAN MAHARASHTRA",
+       "gender": "Male",
+       "firstName": "${first_Name}",
+       "dateOfBirth": {
+           "year": ${year},
+           "day": ${day},
+           "month": ${month}
+       },
+       "optionalAddressType": "RESIDENT"
+   },
+   "assetData": {
+       "assetId": 1096966,
+       "type": "SINGLE_CREDIT_REPORT",
+       "status": "ACTIVE",
+       "creationDate": ${creationDate},
+       "expirationDate": ${expirationDate},
+       "safetyCheckFailure": false,
+       "trueLinkCreditReport": {
+           "value": {
+               "frozen": [
+                   {
+                       "bureau": []
+                   }
+               ],
+               "borrower": [
+                   {
+                       "borrowerAddress": [
+                           {
+                               "creditAddress": {
+                                   "streetAddress": [
+                                       "TARAR"
+                                   ],
+                                   "city": "",
+                                   "postalCode": "824143",
+                                   "region": "10",
+                                   "addressType": " "
+                               },
+                               "dwelling": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "01",
+                                   "rank": 100000
+                               },
+                               "origin": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "BN05035162",
+                                   "rank": 100000
+                               },
+                               "ownership": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "01",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "enrichMode": "E",
+                               "dateReported": 1540425600000,
+                               "dateUpdated": null,
+                               "addressOrder": 0,
+                               "partitionSet": 0
+                           },
+                           {
+                               "creditAddress": {
+                                   "streetAddress": [
+                                       "73 TARAR TARAR ROAD MIDDLE SCHOOL TARAR AURANGABAD DAUDNAGAR TLK"
+                                   ],
+                                   "city": "",
+                                   "postalCode": "824113",
+                                   "region": "10",
+                                   "addressType": " "
+                               },
+                               "dwelling": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "04",
+                                   "rank": 100000
+                               },
+                               "origin": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "MAHINDRA FINANCE",
+                                   "rank": 100000
+                               },
+                               "ownership": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "enrichMode": "R",
+                               "dateReported": 1469923200000,
+                               "dateUpdated": null,
+                               "addressOrder": 1,
+                               "partitionSet": 1
+                           }
+                       ],
+                       "previousAddress": [],
+                       "birth": [
+                           {
+                               "birthDate": {
+                                   "year": ${year},
+                                   "month": ${month},
+                                   "day": ${day}
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "age": 0,
+                               "date": -70156800000,
+                               "partitionSet": 0
+                           }
+                       ],
+                       "creditStatement": [
+                           {
+                               "statementType": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "DISPUTE",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "statement": "",
+                               "dateUpdated": ""
+                           }
+                       ],
+                       "creditScore": [
+                           {
+                               "creditScoreFactor": [
+                                   {
+                                       "factor": {
+                                           "abbreviation": "",
+                                           "description": "",
+                                           "symbol": "08",
+                                           "rank": 100000
+                                       },
+                                       "factorText": [
+                                           "explain: One of the factors your CIBIL Score depends on is the timely payments you make towards your outstanding loans and credit cards. If you have missed a payment for more than 91 days in the last 36 months, your account will be tagged as severely delinquent. Any severe delinquency will have a negative impact on your CIBIL Score even further. One way to improve your CIBIL Score is to make your payments before/by the due date. This will prevent your account from getting delinquent and will subsequently have a positive impact on your CIBIL Score.",
+                                           "factor: One of the factors your CIBIL Score depends on is the timely payments you make towards your outstanding loans and credit cards. If you have missed a payment for more than 91 days in the last 36 months, your account will be tagged as severely delinquent. Any severe delinquency will have a negative impact on your CIBIL Score even further. One way to improve your CIBIL Score is to make your payments before/by the due date. This will prevent your account from getting delinquent and will subsequently have a positive impact on your CIBIL Score."
+                                       ],
+                                       "bureauCode": "08",
+                                       "factorType": null
+                                   },
+                                   {
+                                       "factor": {
+                                           "abbreviation": "",
+                                           "description": "",
+                                           "symbol": "12",
+                                           "rank": 100000
+                                       },
+                                       "factorText": [
+                                           "explain: One of the factors your CIBIL Score depends on is the timely payments you make towards your outstanding loans and credit cards. If you have missed a payment in the last 24 months, it will lead to your account being delinquent. Any delinquency will have a negative impact on your CIBIL Score. One way to improve your CIBIL Score is to make your payments before/by the due date. This will prevent your account from getting delinquent and will subsequently have a positive impact on your CIBIL Score.",
+                                           "factor: One of the factors your CIBIL Score depends on is the timely payments you make towards your outstanding loans and credit cards. If you have missed a payment in the last 24 months, it will lead to your account being delinquent. Any delinquency will have a negative impact on your CIBIL Score. One way to improve your CIBIL Score is to make your payments before/by the due date. This will prevent your account from getting delinquent and will subsequently have a positive impact on your CIBIL Score."
+                                       ],
+                                       "bureauCode": "12",
+                                       "factorType": null
+                                   },
+                                   {
+                                       "factor": {
+                                           "abbreviation": "",
+                                           "description": "",
+                                           "symbol": "00",
+                                           "rank": 100000
+                                       },
+                                       "factorText": [
+                                           "No Valid Factors",
+                                           "We re sorry, but the adverse factors affecting your Credit Score are currently unavailable. Factors that may affect your score include: payment history, outstanding debt, credit account history, recent inquiries, types of credit and other features such as bankruptcies and collection accounts."
+                                       ],
+                                       "bureauCode": "00",
+                                       "factorType": null
+                                   },
+                                   {
+                                       "factor": {
+                                           "abbreviation": "",
+                                           "description": "",
+                                           "symbol": "00",
+                                           "rank": 100000
+                                       },
+                                       "factorText": [
+                                           "No Valid Factors",
+                                           "We are sorry, but the adverse factors affecting your Credit Score are currently unavailable. Factors that may affect your score include: payment history, outstanding debt, credit account history, recent inquiries, types of credit and other features such as bankruptcies and collection accounts."
+                                       ],
+                                       "bureauCode": "00",
+                                       "factorType": null
+                                   },
+                                   {
+                                       "factor": {
+                                           "abbreviation": "",
+                                           "description": "",
+                                           "symbol": "00",
+                                           "rank": 100000
+                                       },
+                                       "factorText": [
+                                           "No Valid Factors",
+                                           "We are sorry, but the adverse factors affecting your Credit Score are currently unavailable. Factors that may affect your score include: payment history, outstanding debt, credit account history, recent inquiries, types of credit and other features such as bankruptcies and collection accounts."
+                                       ],
+                                       "bureauCode": "00",
+                                       "factorType": null
+                                   }
+                               ],
+                               "creditScoreModel": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "CIBILTUSC3",
+                                   "rank": 100000
+                               },
+                               "noScoreReason": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "riskScore": ${riskScore},
+                               "scoreName": "CIBILTransUnionScore3",
+                               "populationRank": "20",
+                               "qualitativeRank": null,
+                               "inquiriesAffectedScore": null,
+                               "new": null
+                           }
+                       ],
+                       "employer": [],
+                       "borrowerName": [
+                           {
+                               "name": {
+                                   "title": null,
+                                   "forename": [
+                                       "SURESH SINGH"
+                                   ],
+                                   "surname": [],
+                                   "suffix": null
+                               },
+                               "nameType": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "disputeRemarks": null,
+                               "dateReported": null,
+                               "dateUpdated": null,
+                               "partitionSet": 0
+                           }
+                       ],
+                       "borrowerTelephone": [
+                           {
+                               "phoneNumber": {
+                                   "countryCode": null,
+                                   "areaCode": null,
+                                   "number": "${phoneNum}",
+                                   "extension": null
+                               },
+                               "phoneType": {
+                                   "abbreviation": null,
+                                   "description": null,
+                                   "symbol": "01",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "enrichMode": "R",
+                               "dateReported": null,
+                               "dateUpdated": null,
+                               "partitionSet": 0
+                           },
+                           {
+                               "phoneNumber": {
+                                   "countryCode": null,
+                                   "areaCode": null,
+                                   "number": "${phoneNum}",
+                                   "extension": null
+                               },
+                               "phoneType": {
+                                   "abbreviation": null,
+                                   "description": null,
+                                   "symbol": "01",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "enrichMode": "R",
+                               "dateReported": null,
+                               "dateUpdated": null,
+                               "partitionSet": 1
+                           }
+                       ],
+                       "emailAddress": [],
+                       "gender": "Male",
+                       "identifierPartition": [
+                           {
+                               "identifier": [
+                                   {
+                                       "id": {
+                                           "identifierName": "SocialId",
+                                           "id": "2152946745"
+                                       },
+                                       "source": {
+                                           "borrowerKey": "2152946745",
+                                           "bureau": {
+                                               "abbreviation": "",
+                                               "description": "",
+                                               "symbol": "CIBIL",
+                                               "rank": 100000
+                                           },
+                                           "inquiryDate": 1601856000000,
+                                           "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                           "locale": "en_IN"
+                                       },
+                                       "enrichMode": null,
+                                       "dateIssued": null,
+                                       "dateReported": null,
+                                       "dateExpired": null,
+                                       "partitionSet": null
+                                   },
+                                   {
+                                       "id": {
+                                           "identifierName": "TaxId",
+                                           "id": "${panNumber}"
+                                       },
+                                       "source": {
+                                           "borrowerKey": "2152946745",
+                                           "bureau": {
+                                               "abbreviation": "",
+                                               "description": "",
+                                               "symbol": "CIBIL",
+                                               "rank": 100000
+                                           },
+                                           "inquiryDate": 1601856000000,
+                                           "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                           "locale": "en_IN"
+                                       },
+                                       "enrichMode": "R",
+                                       "dateIssued": null,
+                                       "dateReported": null,
+                                       "dateExpired": null,
+                                       "partitionSet": null
+                                   },
+                                   {
+                                       "id": {
+                                           "identifierName": "VoterId",
+                                           "id": "FWQ1231935"
+                                       },
+                                       "source": {
+                                           "borrowerKey": "2152946745",
+                                           "bureau": {
+                                               "abbreviation": "",
+                                               "description": "",
+                                               "symbol": "CIBIL",
+                                               "rank": 100000
+                                           },
+                                           "inquiryDate": 1601856000000,
+                                           "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                           "locale": "en_IN"
+                                       },
+                                       "enrichMode": "E",
+                                       "dateIssued": null,
+                                       "dateReported": null,
+                                       "dateExpired": null,
+                                       "partitionSet": null
+                                   }
+                               ]
+                           }
+                       ],
+                       "borrowerKey": "2152946745"
+                   }
+               ],
+               "tradeLinePartition": [
+                   {
+                       "tradeline": [
+                           {
+                               "accountCondition": [
+                                   {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   }
+                               ],
+                               "accountDesignator": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "1",
+                                   "rank": 100000
+                               },
+                               "disputeFlag": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "industryCode": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "openClosed": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "payStatus": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "verificationIndicator": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "remark": [],
+                               "collectionTrade": null,
+                               "grantedTrade": {
+                                   "accountType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "01",
+                                       "rank": 100000
+                                   },
+                                   "creditType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "01",
+                                       "rank": 100000
+                                   },
+                                   "paymentFrequency": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "termType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "worstPayStatus": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "payStatusHistory": {
+                                       "monthlyPayStatus": [
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1556668800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1554076800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1551398400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           }
+                                       ],
+                                       "status": "0,0,0",
+                                       "startDate": 1556668800000,
+                                       "endDate": 1467331200000
+                                   },
+                                   "creditLimit": -1,
+                                   "cashLimit": -1,
+                                   "collateralType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "amountPastDue": 800,
+                                   "collateral": "-1",
+                                   "dateLastPayment": null,
+                                   "datePastDue": null,
+                                   "dateWorstPayStatus": null,
+                                   "late30Count": null,
+                                   "late60Count": null,
+                                   "late90Count": null,
+                                   "monthlyPayment": null,
+                                   "monthsReviewed": null,
+                                   "termMonths": 55,
+                                   "worstPastStatus": null,
+                                   "actualPaymentAmount": -1,
+                                   "interestRate": 7.3,
+                                   "emiamount": -1
+                               },
+                               "watchTrade": null,
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "disputeRemarks": null,
+                               "accountNumber": "4274866",
+                               "creditorName": "MAHINDRA FINANCE",
+                               "currentBalance": 200,
+                               "dateAccountStatus": null,
+                               "dateClosed": null,
+                               "dateOpened": 1467158400000,
+                               "dateReported": 1559260800000,
+                               "dateVerified": null,
+                               "writtenOffAmtTotal": -1,
+                               "writtenOffPrincipal": -1,
+                               "settlementAmount": -1,
+                               "highBalance": 1000000,
+                               "subscriberCode": "66180001",
+                               "position": 0,
+                               "bureau": ""
+                           },
+                           {
+                               "accountCondition": [
+                                   {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   }
+                               ],
+                               "accountDesignator": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "3",
+                                   "rank": 100000
+                               },
+                               "disputeFlag": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "industryCode": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "openClosed": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "payStatus": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "verificationIndicator": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "remark": [],
+                               "collectionTrade": null,
+                               "grantedTrade": {
+                                   "accountType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "01",
+                                       "rank": 100000
+                                   },
+                                   "creditType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "01",
+                                       "rank": 100000
+                                   },
+                                   "paymentFrequency": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "termType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "worstPayStatus": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "payStatusHistory": {
+                                       "monthlyPayStatus": [
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1556668800000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1554076800000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1551398400000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1548979200000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1546300800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1543622400000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1541030400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1538352000000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1535760000000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1533081600000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1530403200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1527811200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1525132800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1522540800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1519862400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1517443200000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1514764800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1512086400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1509494400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1506816000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1504224000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1501545600000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1498867200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1496275200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1493596800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1491004800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1488326400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1485907200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1483228800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1480550400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1477958400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1475280000000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1472688000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1470009600000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1467331200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           }
+                                       ],
+                                       "status": "90,60,90,60,30,60,30,90,60,30,30,30,0,30,0,0,0,0,0,0,0,0,30,30,30,0,30,30,30,30,0,30,0,0,30,",
+                                       "startDate": 1556668800000,
+                                       "endDate": 1467331200000
+                                   },
+                                   "creditLimit": -1,
+                                   "cashLimit": -1,
+                                   "collateralType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "amountPastDue": 800,
+                                   "collateral": "-1",
+                                   "dateLastPayment": null,
+                                   "datePastDue": null,
+                                   "dateWorstPayStatus": null,
+                                   "late30Count": null,
+                                   "late60Count": null,
+                                   "late90Count": null,
+                                   "monthlyPayment": null,
+                                   "monthsReviewed": null,
+                                   "termMonths": 55,
+                                   "worstPastStatus": null,
+                                   "actualPaymentAmount": -1,
+                                   "interestRate": 7.3,
+                                   "emiamount": -1
+                               },
+                               "watchTrade": null,
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "disputeRemarks": null,
+                               "accountNumber": "4274866",
+                               "creditorName": "MAHINDRA FINANCE",
+                               "currentBalance": 200,
+                               "dateAccountStatus": null,
+                               "dateClosed": null,
+                               "dateOpened": 1467158400000,
+                               "dateReported": 1559260800000,
+                               "dateVerified": null,
+                               "writtenOffAmtTotal": -1,
+                               "writtenOffPrincipal": -1,
+                               "settlementAmount": -1,
+                               "highBalance": 1000000,
+                               "subscriberCode": "66180001",
+                               "position": 0,
+                               "bureau": ""
+                           }
+                       ],
+                       "accountTypeDescription": "",
+                       "accountTypeSymbol": "10",
+                       "accountTypeAbbreviation": ""
+                   },
+                   {
+                       "tradeline": [
+                           {
+                               "accountCondition": [
+                                   {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   }
+                               ],
+                               "accountDesignator": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "3",
+                                   "rank": 100000
+                               },
+                               "disputeFlag": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "industryCode": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "openClosed": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "payStatus": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "verificationIndicator": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "remark": [],
+                               "collectionTrade": null,
+                               "grantedTrade": {
+                                   "accountType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "01",
+                                       "rank": 100000
+                                   },
+                                   "creditType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "01",
+                                       "rank": 100000
+                                   },
+                                   "paymentFrequency": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "termType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "worstPayStatus": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "payStatusHistory": {
+                                       "monthlyPayStatus": [
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1556668800000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1554076800000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1551398400000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1548979200000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1546300800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1543622400000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1541030400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1538352000000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1535760000000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1533081600000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1530403200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1527811200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1525132800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1522540800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1519862400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1517443200000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1514764800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1512086400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1509494400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1506816000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1504224000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1501545600000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1498867200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1496275200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1493596800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1491004800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1488326400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1485907200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1483228800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1480550400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1477958400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1475280000000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1472688000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1470009600000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1467331200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           }
+                                       ],
+                                       "status": "90,60,90,60,30,60,30,90,60,30,30,30,0,30,0,0,0,0,0,0,0,0,30,30,30,0,30,30,30,30,0,30,0,0,30,",
+                                       "startDate": 1556668800000,
+                                       "endDate": 1467331200000
+                                   },
+                                   "creditLimit": -1,
+                                   "cashLimit": -1,
+                                   "collateralType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "amountPastDue": 800,
+                                   "collateral": "-1",
+                                   "dateLastPayment": null,
+                                   "datePastDue": null,
+                                   "dateWorstPayStatus": null,
+                                   "late30Count": null,
+                                   "late60Count": null,
+                                   "late90Count": null,
+                                   "monthlyPayment": null,
+                                   "monthsReviewed": null,
+                                   "termMonths": 55,
+                                   "worstPastStatus": null,
+                                   "actualPaymentAmount": -1,
+                                   "interestRate": 7.3,
+                                   "emiamount": -1
+                               },
+                               "watchTrade": null,
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "disputeRemarks": null,
+                               "accountNumber": "4274866",
+                               "creditorName": "MAHINDRA FINANCE",
+                               "currentBalance": 200,
+                               "dateAccountStatus": null,
+                               "dateClosed": null,
+                               "dateOpened": 1467158400000,
+                               "dateReported": 1559260800000,
+                               "dateVerified": null,
+                               "writtenOffAmtTotal": -1,
+                               "writtenOffPrincipal": -1,
+                               "settlementAmount": -1,
+                               "highBalance": 1000000,
+                               "subscriberCode": "66180001",
+                               "position": 0,
+                               "bureau": ""
+                           },
+                           {
+                               "accountCondition": [
+                                   {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   }
+                               ],
+                               "accountDesignator": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "1",
+                                   "rank": 100000
+                               },
+                               "disputeFlag": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "industryCode": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "openClosed": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "payStatus": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "verificationIndicator": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "remark": [],
+                               "collectionTrade": null,
+                               "grantedTrade": {
+                                   "accountType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "01",
+                                       "rank": 100000
+                                   },
+                                   "creditType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "01",
+                                       "rank": 100000
+                                   },
+                                   "paymentFrequency": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "termType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "worstPayStatus": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "payStatusHistory": {
+                                       "monthlyPayStatus": [
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1556668800000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1554076800000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1551398400000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1548979200000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1546300800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1543622400000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1541030400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1538352000000,
+                                               "status": "90",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1535760000000,
+                                               "status": "60",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1533081600000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1530403200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1527811200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1525132800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1522540800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1519862400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1517443200000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1514764800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1512086400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1509494400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1506816000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1504224000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1501545600000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1498867200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1496275200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1493596800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1491004800000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1488326400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1485907200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1483228800000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1480550400000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1477958400000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1475280000000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1472688000000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1470009600000,
+                                               "status": "0",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           },
+                                           {
+                                               "genericRemark": null,
+                                               "ratingRemark": null,
+                                               "complianceRemark": null,
+                                               "date": 1467331200000,
+                                               "status": "30",
+                                               "changed": null,
+                                               "currentBalance": null,
+                                               "highCredit": null,
+                                               "creditLimit": null,
+                                               "paymentDue": null,
+                                               "pastDue": null,
+                                               "actualPayment": null
+                                           }
+                                       ],
+                                       "status": "90,60,90,60,30,60,30,90,60,30,30,30,0,30,0,0,0,0,0,0,0,0,30,30,30,0,30,30,30,30,0,30,0,0,30,",
+                                       "startDate": 1556668800000,
+                                       "endDate": 1467331200000
+                                   },
+                                   "creditLimit": -1,
+                                   "cashLimit": -1,
+                                   "collateralType": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "",
+                                       "rank": 100000
+                                   },
+                                   "amountPastDue": 800,
+                                   "collateral": "-1",
+                                   "dateLastPayment": null,
+                                   "datePastDue": null,
+                                   "dateWorstPayStatus": null,
+                                   "late30Count": null,
+                                   "late60Count": null,
+                                   "late90Count": null,
+                                   "monthlyPayment": null,
+                                   "monthsReviewed": null,
+                                   "termMonths": 55,
+                                   "worstPastStatus": null,
+                                   "actualPaymentAmount": -1,
+                                   "interestRate": 7.3,
+                                   "emiamount": -1
+                               },
+                               "watchTrade": null,
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "disputeRemarks": null,
+                               "accountNumber": "4274866",
+                               "creditorName": "MAHINDRA FINANCE",
+                               "currentBalance": 200,
+                               "dateAccountStatus": null,
+                               "dateClosed": null,
+                               "dateOpened": 1467158400000,
+                               "dateReported": 1559260800000,
+                               "dateVerified": null,
+                               "writtenOffAmtTotal": -1,
+                               "writtenOffPrincipal": -1,
+                               "settlementAmount": -1,
+                               "highBalance": 1000000,
+                               "subscriberCode": "66180001",
+                               "position": 0,
+                               "bureau": ""
+                           }
+                       ],
+                       "accountTypeDescription": "",
+                       "accountTypeSymbol": "10",
+                       "accountTypeAbbreviation": ""
+                   }
+               ],
+               "inquiryPartition": [
+                   {
+                       "inquiry": [
+                           {
+                               "industryCode": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "inquiryDate": 1591142400000,
+                               "subscriberName": "SIDVIK LEASING",
+                               "subscriberNumber": "",
+                               "bureau": "",
+                               "inquiryType": "05",
+                               "amount": 1
+                           }
+                       ]
+                   },
+                   {
+                       "inquiry": [
+                           {
+                               "industryCode": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "inquiryDate": 1543795200000,
+                               "subscriberName": "BOB",
+                               "subscriberNumber": "",
+                               "bureau": "",
+                               "inquiryType": "39",
+                               "amount": 200000
+                           }
+                       ]
+                   },
+                   {
+                       "inquiry": [
+                           {
+                               "industryCode": {
+                                   "abbreviation": "",
+                                   "description": "",
+                                   "symbol": "",
+                                   "rank": 100000
+                               },
+                               "source": {
+                                   "borrowerKey": "2152946745",
+                                   "bureau": {
+                                       "abbreviation": "",
+                                       "description": "",
+                                       "symbol": "CIBIL",
+                                       "rank": 100000
+                                   },
+                                   "inquiryDate": 1601856000000,
+                                   "reference": "d364b914-b96b-4658-bede-18ed077c38cd",
+                                   "locale": "en_IN"
+                               },
+                               "inquiryDate": 1540425600000,
+                               "subscriberName": "BOB",
+                               "subscriberNumber": "",
+                               "bureau": "",
+                               "inquiryType": "39",
+                               "amount": 200000
+                           }
+                       ]
+                   }
+               ],
+               "bankingRecordPartition": [],
+               "publicRecordPartition": [],
+               "subscriber": [],
+               "message": [
+                   {
+                       "code": {
+                           "abbreviation": "",
+                           "description": "",
+                           "symbol": "",
+                           "rank": 100000
+                       },
+                       "type": {
+                           "abbreviation": "",
+                           "description": "",
+                           "symbol": "ZZ",
+                           "rank": 100000
+                       },
+                       "text": ""
+                   }
+               ],
+               "summary": null,
+               "sources": {
+                   "source": [
+                       {
+                           "bureau": {
+                               "abbreviation": "",
+                               "description": "",
+                               "symbol": "CIBIL",
+                               "rank": 100000
+                           },
+                           "inquiryDate": 1601917141000
+                       }
+                   ]
+               },
+               "safetyCheckPassed": true,
+               "referenceKey": "2154533799",
+               "creditVision": null,
+               "fraudIndicator": false,
+               "deceasedIndicator": false,
+               "currentversion": "5.0"
+           },
+           "nil": false,
+           "globalScope": false,
+           "typeSubstituted": false
+       }
+   }
+}

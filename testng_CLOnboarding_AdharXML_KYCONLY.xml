@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite" configfailurepolicy="continue">
+    
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+  <test thread-count="1" name="CL_Initiate">
+    <classes>
+        <class name="clOnboarding.TestCLMain">
+        <methods>
+            <include name="initiateCreditLine" />
+        </methods>
+        </class>
+    </classes>
+  </test>
+  <test thread-count="1" name="Adhar XML">
+        <classes>
+            <class name="multiDoc.TestAadhaarXmlApprovedCase"/>
+        </classes>
+  </test>
+    <test thread-count="1" name="CL_BankVerification">
+        <classes>
+            <class name="clOnboarding.TestCLMain">
+                <methods>
+                    <include name="reprocessOnboarding" />
+                    <include name="bankVerification" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

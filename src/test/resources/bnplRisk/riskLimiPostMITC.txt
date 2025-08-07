@@ -1,0 +1,17 @@
+{
+  "fraudEngineMode": "${fraudEngineMode}",
+  "timeToLive": "${timeToLive}",
+  "reasonCode": "RC001",
+  "mobile": "${mobile}",
+  "decision": ${decision},
+  "status": "${status}",
+  "mitcSignedDate": "${mitcSignedDate}",
+  "lastLimitUpdateDate": "${lastLimitUpdateDate}",
+  "requestId" : "${requestId}",
+  "merchantId": "${merchantId}",
+  "subMerchantIdentifier": "${subMerchantIdentifier}",
+  "tenant": "${tenant}",
+  "products": [
+   ${products}
+  ]
+}

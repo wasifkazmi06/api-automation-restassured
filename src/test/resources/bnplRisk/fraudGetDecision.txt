@@ -1,0 +1,50 @@
+{
+    "email": "${email}",
+    "mobile": "${mobile}",
+    "firstName": "${firstName}",
+    "middleName": "${middleName}",
+    "lastName": "${lastName}",
+    "address": {
+        "street1": "${street1}",
+        "street2": "${street2}",
+        "city": "${city}",
+        "state": "${state}",
+        "country": "${country}",
+        "zip": "${zip}"
+    },
+    "amount": {
+        "amount": ${amount},
+        "currency": "${currency}"
+    },
+    "merchantAccessKey": "${merchantAccessKey}",
+    "requestId": "${requestId}",
+    "integrationMethod": "${integrationMethod}",
+    "timestamp": ${timestamp},
+    "customParams": {
+        "MerchantName": "Lazypay Testing",
+        "subMerchantId":"${subMerchantId}",
+        "custom_prop": "prop1",
+        "custom_prop3": "prop3",
+        "custom_prop1": "prop2",
+        "custom_prop2": "prop2"
+    },
+    "userParams": {
+        "isTransacting": ${isTransacting},
+        "uuid": "${uuid}",
+        "creditLimit": "${creditLimit}",
+        "isBlocked": ${isBlocked},
+        "optedOut": ${optedOut}
+    },
+    "requestApi": "${requestApi}",
+    "deviceInfo": {
+        "sourceDevicePlatform": "${sourceDevicePlatform}",
+        "userId": "${userId}",
+        "deviceId": "${deviceId}",
+        "policyId": "${policyId}"
+    },
+    "deviceRuleEnabled": ${deviceRuleEnabled},
+    "policyId": "${policyId}",
+    "products" : [
+            "${products}"
+    ]
+}

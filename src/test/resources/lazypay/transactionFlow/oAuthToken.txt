@@ -1,0 +1,7 @@
+{
+    "client_id":"n5uxkxcm1q-signin-new",
+    "client_secret":"8cjyxu6xgiit0459c5js75yj76m5g2mh",
+    "mobile":"${mobile}",
+    "scope":"FULL",
+    "source":"fetch_otp"
+}

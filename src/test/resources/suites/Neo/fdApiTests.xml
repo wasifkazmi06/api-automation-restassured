@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="FD Api Tests" annotations="JDK" >
+
+    <test name="FD CORE API TESTS">
+        <packages>
+            <package name="neo.fd"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+{
+		"umuuid": "${umuuid}",
+		"accountNo": "${accountNo}",
+		"ifsc": "HDFC0000240",
+	    "bankName": "HDFC BANK LTD.",
+	    "bankCode": "HDFC"
+}

@@ -1,0 +1,7 @@
+{
+    "uuid": "${uuid}",
+    "type": "${type}",
+    "status": "${status}",
+    "refKey": "${refKey}",
+    "revealSensitiveInfo": true
+}

@@ -1,0 +1,227 @@
+{
+    "userId": 10066627,
+    "member": "PAYUFIN",
+    "firstName": "${firstName}",
+    "middleName": "Keshav",
+    "lastName": "${lastName}",
+    "address1": "Ramkrupa, rajaji road",
+    "address2": "Ram Nagar",
+    "address3": "address3",
+    "address4": "address4",
+    "address5": "address5",
+    "dateOfBirth": "${dateOfBirth1}",
+    "gender": "M",
+    "amount": 1,
+    "mobile": "${mobile}",
+    "pan": "${pan}",
+    "state": "MAHARASHTRA",
+    "city": "Thane",
+    "pincode": "421201",
+    "jsonParsedReport": {
+        "End": {
+            "SegmentTag": "ES07",
+            "TotalLength": 2331
+        },
+        "Header": {
+            "Version": "12",
+            "MemberCode": "NB72018899_CIRC2CNPE1         ",
+            "SegmentTag": "TUEF",
+            "DateProcessed": "${dateProcessed}",
+            "TimeProcessed": "003254",
+            "ReferenceNumber": "422565470",
+            "SubjectReturnCode": "1",
+            "EnquiryControlNumber": "005954490783"
+        },
+        "Account": [
+            {
+                "Length": "04",
+                "SegmentTag": "T005",
+                "Account_Summary_Segment_Fields": [
+                    {
+                        "ReportingMemberShortNameFieldLength": "13"
+                    }
+                ],
+                "Account_NonSummary_Segment_Fields": [
+                    {
+                        "CashLimit": "3000",
+                        "AccountType": "10",
+                        "CreditLimit": "130000",
+                        "CurrentBalance": "85664",
+                        "PaymentHistory1": "000000000000000000000",
+                        "DateOfLastPayment": "18032024",
+                        "OwenershipIndicator": "1",
+                        "CashLimitFieldLength": "04",
+                        "DateOpenedOrDisbursed": "09102023",
+                        "PaymentHistoryEndDate": "01042024",
+                        "CreditLimitFieldLength": "05",
+                        "PaymentHistoryStartDate": "01112023",
+                        "DateReportedAndCertified": "11032024",
+                        "ReportingMemberShortName": "NOT DISCLOSED",
+                        "CurrentBalanceFieldLength": "04",
+                        "PaymentHistory1FieldLength": "21",
+                        "HighCreditOrSanctionedAmount": "130000",
+                        "ReportingMemberShortNameFieldLength": "13",
+                        "HighCreditOrSanctionedAmountFieldLength": "05"
+                    }
+                ]
+            },
+            {
+                "Length": "04",
+                "SegmentTag": "T005",
+                "Account_Summary_Segment_Fields": [
+                    {
+                        "ReportingMemberShortNameFieldLength": "13"
+                    }
+                ],
+                "Account_NonSummary_Segment_Fields": [
+                    {
+                        "CashLimit": "3000",
+                        "AccountType": "10",
+                        "CreditLimit": "180000",
+                        "CurrentBalance": "85664",
+                        "PaymentHistory1": "000000000000000000000",
+                        "DateOfLastPayment": "18022024",
+                        "OwenershipIndicator": "1",
+                        "CashLimitFieldLength": "04",
+                        "DateOpenedOrDisbursed": "09102022",
+                        "PaymentHistoryEndDate": "01042024",
+                        "CreditLimitFieldLength": "05",
+                        "PaymentHistoryStartDate": "01112022",
+                        "DateReportedAndCertified": "11032024",
+                        "ReportingMemberShortName": "NOT DISCLOSED",
+                        "CurrentBalanceFieldLength": "04",
+                        "PaymentHistory1FieldLength": "21",
+                        "HighCreditOrSanctionedAmount": "130000",
+                        "ReportingMemberShortNameFieldLength": "13",
+                        "HighCreditOrSanctionedAmountFieldLength": "05"
+                    }
+                ]
+            }
+        ],
+        "Address": [
+            {
+                "Length": "03",
+                "PinCode": "627416",
+                "StateCode": "33",
+                "SegmentTag": "A01",
+                "AddressLine1": "TIRUNELVELI",
+                "AddressLine2": "TAMIL NADU",
+                "AddressLine3": "627416",
+                "DateReported": "31032023",
+                "AddressCategory": "02",
+                "AddressSegmentTag": "PA",
+                "PinCodeFieldLength": "06",
+                "AddressLine1FieldLength": "11",
+                "AddressLine2FieldLength": "10",
+                "AddressLine3FieldLength": "06"
+            },
+            {
+                "Length": "03",
+                "PinCode": "609602",
+                "StateCode": "34",
+                "SegmentTag": "A02",
+                "AddressLine1": "NO.140, KAMARAJAR SALAI",
+                "AddressLine2": "KARAIKAL",
+                "AddressLine4": "KARAIKAL",
+                "DateReported": "28022023",
+                "AddressCategory": "04",
+                "AddressSegmentTag": "PA",
+                "PinCodeFieldLength": "06",
+                "AddressLine1FieldLength": "23",
+                "AddressLine2FieldLength": "08",
+                "AddressLine4FieldLength": "08"
+            }
+        ],
+        "Enquiry": [],
+        "IDSegment": [
+            {
+                "IDType": "01",
+                "Length": "03",
+                "IDNumber": "GXEPM8062D",
+                "SegmentTag": "I01",
+                "IDNumberFieldLength": "10"
+            },
+            {
+                "IDType": "03",
+                "Length": "03",
+                "IDNumber": "NEW2236370",
+                "SegmentTag": "I02",
+                "IDNumberFieldLength": "10",
+                "EnrichedThroughEnquiry": "Y"
+            }
+        ],
+        "NameSegment": {
+            "Gender": "2",
+            "Length": "03",
+            "SegmentTag": "N01",
+            "DateOfBirth": "${dateOfBirth2}",
+            "ConsumerName1": "MURUGAN PETCHIMUTHU",
+            "GenderFieldLength": "01",
+            "DateOfBirthFieldLength": "08",
+            "ConsumerName1FieldLength": "19"
+        },
+        "ScoreSegment": [
+            {
+                "Score": "${score}",
+                "Length": "10",
+                "ScoreDate": "${dateProcessed}",
+                "ScoreName": "CIBILTUSC3",
+                "ReasonCode1": "27",
+                "ReasonCode2": "25",
+                "ReasonCode3": "28",
+                "ReasonCode4": "24",
+                "ScoreCardName": "08",
+                "ScoreCardVersion": "10",
+                "BureauCharacterstics": null,
+                "ReasonCode1FieldLength": "02",
+                "ReasonCode2FieldLength": "02",
+                "ReasonCode3FieldLength": "02",
+                "ReasonCode4FieldLength": "02"
+            }
+        ],
+        "TelephoneSegment": [
+            {
+                "Length": "03",
+                "SegmentTag": "T01",
+                "TelephoneType": "03",
+                "TelephoneNumber": "0006369118139",
+                "TelephoneNumberFieldLength": "13"
+            },
+            {
+                "Length": "03",
+                "SegmentTag": "T02",
+                "TelephoneType": "01",
+                "TelephoneNumber": "6369118139",
+                "TelephoneNumberFieldLength": "10"
+            }
+        ],
+        "EmploymentSegment": [
+            {
+                "Income": "500000",
+                "Length": "03",
+                "SegmentTag": "E01",
+                "AccountType": "05",
+                "OccupationCode": "01",
+                "IncomeFieldLength": "06",
+                "NetGrossIndicator": "N",
+                "DateReportedCertified": "30042023",
+                "MonthlyAnnualIndicator": "A"
+            }
+        ],
+        "EmailContactSegment": [
+            {
+                "Length": "03",
+                "EmailID": "MURUGAN.P1@ICICIBANK.COM",
+                "SegmentTag": "C01",
+                "EmailIDFieldLength": "24"
+            },
+            {
+                "Length": "03",
+                "EmailID": "MERSALMURUGAN964@GMAIL.COM",
+                "SegmentTag": "C02",
+                "EmailIDFieldLength": "26"
+            }
+        ]
+    },
+    "reasonForBureauPull": "NO_PREVIOUS_REPORT_FOUND"
+}

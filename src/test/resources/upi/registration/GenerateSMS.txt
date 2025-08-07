@@ -1,0 +1,9 @@
+{
+    "deviceIds": [
+        "${deviceId}"
+    ],
+    "mobile": "${mobile}",
+    "simIds": [
+        "${simId}"
+    ]
+}

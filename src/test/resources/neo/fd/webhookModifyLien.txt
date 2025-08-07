@@ -1,0 +1,9 @@
+{
+    "Status": "${status}",
+    "transactionType": "fd_closure_status",
+    "accountId": "${accountNumber}",
+    "productId": "TD_FIXED_ACCOUNT_CLOSE",
+    "responseDescription": "Account closed successfully",
+    "description": "Account closed successfully",
+    "entityId": "${entityId}"
+}

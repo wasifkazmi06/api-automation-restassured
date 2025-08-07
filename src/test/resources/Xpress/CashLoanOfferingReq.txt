@@ -1,0 +1,8 @@
+{
+	"userUpiStatusRequest": {
+		"source": "ANDROID",
+		"mobile": "${mobile}"
+	},
+	"lazyCardStatus": "IN_PROGRESS",
+	"lcstatusActive": false
+}

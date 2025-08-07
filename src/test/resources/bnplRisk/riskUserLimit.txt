@@ -1,0 +1,10 @@
+[
+    {
+        "mobile": "${mobile}",
+        "isTransacting": ${isTransacting},
+        "creditLimit": "${creditLimit}",
+        "accessKey": "${accessKey}",
+        "merchantId": "${merchantId}",
+        "tenant": "${tenant}"
+    }
+]

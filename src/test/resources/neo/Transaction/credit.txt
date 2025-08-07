@@ -1,0 +1,36 @@
+{
+"entityId": "${entityId}",
+"proxyCardNo": "${proxyCardNo}",
+"rrn": "${rrn}",
+"transactionAmount": "${transactionAmount}",
+"amount": "${transactionAmount}",
+"traceNo": "123456",
+"merchantID": "${merchantID}",
+"merchantName": "${merchantName}",
+"transactionType": null,
+"senderAccountNo": null,
+"curCode": null,
+"terminalID": null,
+"mcc": ${mcc},
+"senderRefNo": null,
+"network": null,
+"senderName": null,
+"transactionCurrency": null,
+"institutionCode": null,
+"productCode": null,
+"channel": null,
+"billingCurrency":null,
+"BillingAmount":null,
+"settlementCurrency":null,
+"settlementAmount":"1000",
+"dccCurrency":null,
+"dccAmount":null,
+"crdr":"${crdr}",
+"originalRrn":"${originalRrn}",
+"originalTxnDate":"18-May-2019",
+"txnRefNo": "${txnRefNo}",
+"approvalCode":"${approvalCode}"
+
+
+
+}

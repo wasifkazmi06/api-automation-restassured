@@ -1,0 +1,11 @@
+{
+   "mobile": "${mobile}",
+   "deviceIds": [
+     "${deviceIds}"
+   ],
+   "simIds": [
+     "${simIds}"
+   ],
+   "deviceBindingId": ${deviceBindingId},
+   "status": "${status}"
+}

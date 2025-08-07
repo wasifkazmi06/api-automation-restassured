@@ -1,0 +1,5 @@
+{
+  "kycCaseId": "${kycCaseId}",
+  "source": "${source}",
+  "uuid": "${userid}"
+}

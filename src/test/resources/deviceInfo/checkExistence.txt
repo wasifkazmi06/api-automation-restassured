@@ -1,0 +1,7 @@
+{
+    "sourceDeviceId":"${deviceId}",
+     "policyId":${policyId},
+     "tenantUserId":"${lpUserId}",
+     "sourceId":"${accessKey}",
+     "sourceDevicePlatform":"${platform}"
+ }

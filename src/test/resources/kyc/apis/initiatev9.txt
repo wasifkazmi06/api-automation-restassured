@@ -1,0 +1,6 @@
+{
+
+	  "userId": "${userid}",
+	  "product": "${product}",
+	  "source":"${source}"
+}

@@ -1,0 +1,6 @@
+{
+		"fullName": "${fullName}",
+		"phoneNumber": "${phoneNumber}",
+	    "referenceMode": 1,
+	    "relation": 3
+}

@@ -1,0 +1,6 @@
+{
+  "mobile": "${mobile}",
+  "otpValue": "${otpValue}",
+  "tenantId": "${tenantId}",
+  "otpId": "${otpId}"
+}

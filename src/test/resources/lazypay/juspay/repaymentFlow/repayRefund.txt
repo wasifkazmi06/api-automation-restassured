@@ -1,0 +1,7 @@
+{
+  "lazypayTxnId": "${transactionId}",
+  "userId": "${identifier}",
+  "amount": ${amount},
+  "comments": "string",
+  "deferred": true
+}

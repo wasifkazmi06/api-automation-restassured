@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Heimdall Automation Suite" annotations="JDK">
+    <test name="TXN Monitoring Flows">
+        <classes>
+            <class name="heimdall.TransactionMonitoringTests"/>
+            <class name="heimdall.TxnRequestTests"/>
+        </classes>
+    </test>
+</suite>

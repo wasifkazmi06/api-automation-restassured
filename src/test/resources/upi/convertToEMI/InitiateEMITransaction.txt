@@ -1,0 +1,41 @@
+{
+    "devType": "1",
+    "amount": {
+        "currency": "${currency}",
+        "value": "${amount}"
+    },
+    "deviceIds": [
+        "${deviceId}"
+    ],
+    "merchantVpa": "${merchantVpa}",
+    "latitude": "1",
+    "mobile": "${mobile}",
+    "devOS": "1",
+    "type": "${type}",
+    "devIp": "10.106.130.72",
+    "deviceId": "",
+    "devLocation": "1",
+    "selectedPlan": {
+            "emi": "${emi}",
+            "interestRate": ${interestRate},
+            "firstInstallmentDate": "${firstInstallmentDate}",
+            "overdueRate": "${overdueRate}",
+            "subventedAmount": "${subventedAmount}",
+            "loanPayableAmount": "${loanPayableAmount}",
+            "tenure": {
+                "unit": "Months",
+                "value": "${tenure}"
+            },
+            "principalAmount": "${principalAmount}",
+            "processingFee": "${processingFee}",
+            "interestPayable": "${interestPayable}",
+            "userInterestRate": null
+    },
+    "acquisitionChannel": "${acquisitionChannel}",
+    "simIds": [
+        "${simId}"
+    ],
+    "requestId": "${requestId}",
+    "upiTxnIntentId": "${upiTxnIntentId}",
+    "longitude": "1"
+}

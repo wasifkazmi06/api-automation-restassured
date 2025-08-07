@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TM User Migration Validation" configfailurepolicy="continue" parallel="methods" thread-count="3">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+  <test thread-count="3" name="TM User Migration">
+    <classes>
+       <!-- <class name="vaultTM.UserAccountTest">
+           &lt;!&ndash; <methods>
+                <include name="validateUserMigratedBalances"/>
+                <include name="validateUserMigratedCache"/>
+            </methods>&ndash;&gt;
+        </class>-->
+        <class name="vaultTM.AccountClosureTest">
+            <methods>
+                <include name="validateAccountClosed"/>
+            </methods>
+        </class>
+    </classes>
+  </test>
+</suite>

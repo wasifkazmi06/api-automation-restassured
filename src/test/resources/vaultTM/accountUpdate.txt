@@ -1,0 +1,10 @@
+{
+    "request_id": "${request_id}",
+    "account_update": {
+        "account_id": "${account_id}",
+        "product_version_update": {
+            "product_version_id": "${product_version_id}",
+            "schedule_migration_type": "${schedule_migration_type}"
+        }
+    }
+}

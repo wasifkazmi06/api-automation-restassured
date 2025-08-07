@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RiskSanitySuite" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="1" name="Risk Sanity Test Cases" preserve-order="true">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes >
+            <class name="bnplRisk.fraud.FraudAPITests"/>
+            <class name="bnplRisk.riskPL.RiskPLAPITests"/>
+            <class name="bnplRisk.risk.RiskAPITests"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

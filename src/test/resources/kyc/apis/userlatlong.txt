@@ -1,0 +1,11 @@
+{
+  "data": {
+    "location": {
+      "lat": "",
+      "lng": ""
+    }
+  },
+  "product": "${product}",
+  "source": "${source}",
+  "uuid": "${uuid}"
+}

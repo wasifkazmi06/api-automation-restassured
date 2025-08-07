@@ -1,0 +1,9 @@
+{
+   "city": "Bengaluru",
+   "houseNo": "234",
+   "landmark": "btm",
+   "pinCode": "560076",
+   "residenceType": "owned",
+   "state": "Karnataka",
+   "street": "btm"
+ }

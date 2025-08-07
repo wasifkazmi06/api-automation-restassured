@@ -1,0 +1,4 @@
+{
+  "umUuid": "${umUuid}",
+  "uuid": ${uuid}
+}

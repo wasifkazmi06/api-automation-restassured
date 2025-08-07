@@ -1,0 +1,31 @@
+{
+    "identifiers": {
+        "masterUserId": "${masterUserId}"
+    },
+    "expiryTime": 7,
+    "expiryUnit": "DAYS",
+    "data": {
+        "hasPg": null,
+        "modelId": null,
+        "pgScore": null,
+        "hasBureau": null,
+        "hasBanking": null,
+        "hasNetwork": null,
+        "bureauScore": null,
+        "darwinScore": null,
+        "bankingScore": null,
+        "modelSegment": null,
+        "modelVersion": null,
+        "networkScore": null,
+        "darwinApiVersion": null,
+        "uptopRiskSegment": null,
+        "hasBureauInternal": true,
+        "bankingBureauScore": null,
+        "networkBureauScore": null,
+        "bureauInternalScore": null,
+        "networkBankingScore": null,
+        "bureauInternalPgScore": null,
+        "networkBankingBureauScore": null
+    },
+    "delay": 0
+}

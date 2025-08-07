@@ -1,0 +1,19 @@
+{
+    "requestId": "617646f612678900017922",
+    "dateCreated": 1675349165000,
+    "requestType": 11,
+    "inputEmail": "${inputEmail}",
+    "inputMobile": "${inputMobile}",
+    "inputName": "${inputName}",
+    "inputDob": "689797800000",
+    "inputGender": "MALE",
+    "inputCurrentPinCode": 603103,
+    "panReferenceNumber": "b2d1acad-9980-4d50-acc0-5cda8187e080",
+    "panVerificationStatus": 1,
+    "panVerifiedName": "${panVerifiedName}",
+    "panVerifiedDob": "689797800000",
+    "latitude": null,
+    "longitude": null,
+    "source": "PLATFORM",
+    "mitcSignedDate": 1642428884600
+}

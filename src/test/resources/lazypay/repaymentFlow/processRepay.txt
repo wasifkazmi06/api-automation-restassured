@@ -1,0 +1,21 @@
+{
+    "amount": "${amount}",
+    "status" : "${status}",
+    "mihPayId" : "1234567",
+    "txnId" : "${transactionId}",
+    "hash" : "",
+    "error" : "",
+    "unmappedStatus" : "",
+    "bankRefNo" : "12345",
+    "mode" :"${mode}",
+    "cardToken" : "${cardToken}",
+    "paymentSource": "",
+    "firstName": "",
+    "key" : "",
+    "productInfo" :"Lazypay Repayment",
+    "email" :"",
+    "phone" :"",
+    "pgType" : "",
+    "bankCode": "${bankCode}"
+
+}

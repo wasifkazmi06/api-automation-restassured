@@ -1,0 +1,4 @@
+{
+	"user_id": "${userId}",
+	"otp": "${otp}"
+}

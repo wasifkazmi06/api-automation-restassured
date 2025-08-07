@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+  <test thread-count="1" name="Flipkart">
+    <classes>
+        <class name="flipkart.testFlipkartMain"/>
+      <class name="flipkart.testFlipkartError"/>
+    </classes>
+  </test>
+    <test thread-count="1" name="DocStore">
+        <classes>
+            <class name="docStore.TestDocStoreMain"/>
+        </classes>
+    </test>
+    <test thread-count="1" name="KYC Additional-Doc">
+        <classes>
+            <class name="kyc.TestKYCFlowWithAddDocAccepted"/>
+        </classes>
+    </test>
+    <test thread-count="1" name="LazyPay">
+        <classes>
+            <class name="lazyPay.testLazyPayMain"/>
+        </classes>
+    </test>
+    <test thread-count="1" name="UPI Secure">
+        <classes>
+            <class name="upiLPSecure.TestUPIMain"/>
+            <class name="upiLPSecure.TestUPIError"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

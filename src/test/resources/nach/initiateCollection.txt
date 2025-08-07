@@ -1,0 +1,6 @@
+{
+  "amount": "${amount}",
+  "merchantTxnId": "${merchantTxnId}",
+  "product": "${product}",
+  "umUuid": "${umUuid}"
+}

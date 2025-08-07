@@ -1,0 +1,9 @@
+{
+    "lazypayUuid": ${lazypayUuid},
+    "umUuid": "${umUuid}",
+    "phoneNumber": "${phoneNumber}",
+    "email": "${email}",
+    "annualIncome": "0 - 2 Lacs",
+    "employmentType": "Self-employed",
+    "sourceOfIncome": "Business",
+}

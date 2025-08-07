@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NACHPresentmentSuite" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="1" name="NACH Presentment Test Cases" preserve-order="true">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes >
+            <class name="nach.presentment.NACHpresentmentTestBNPL"/>
+            <class name="nach.presentment.NACHpresentmentTestCashLoan"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

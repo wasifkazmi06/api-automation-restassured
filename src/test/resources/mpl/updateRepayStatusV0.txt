@@ -1,0 +1,7 @@
+{
+    "merchantTxnId": "${merchantTxnId}",
+    "status": "${status}",
+    "reason": "${reason}",
+    "type":"${type}",
+    "pgTxnId" : "${pgTxnId}"
+}

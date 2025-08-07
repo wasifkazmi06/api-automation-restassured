@@ -1,0 +1,8 @@
+{
+  "merchantTxnId": "${merchantTxnId}",
+  "orderId": "${orderId}",
+  "pgTxnId": "${pgTxnId}",
+  "reason": "${reason}",
+  "status": "${status}",
+  "type": "${type}"
+}

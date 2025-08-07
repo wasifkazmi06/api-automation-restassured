@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UPI Secure">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+    <test thread-count="1" name="UPI">
+        <classes>
+            <class name="upi.registration.UPIRegistrationTests">
+                <methods/>
+            </class>
+            <class name="upi.bnpl.LPUPITransactionalFlowTests">
+                <methods/>
+            </class>
+            <class name="upi.convertToEMI.EMIUPITransactionalFlowTests">
+                <methods/>
+            </class>
+            <class name="lazypay.loanCancellationFlow.LoanCancellationTests">
+                <methods/>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

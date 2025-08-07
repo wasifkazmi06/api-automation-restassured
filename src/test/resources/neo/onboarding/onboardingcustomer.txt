@@ -1,0 +1,11 @@
+{
+    "lazypayUuid": ${lazypayUuid},
+    "umUuid": "${umUuid}",
+    "phoneNumber": "${phoneNumber}",
+    "email": "${email}",
+    "annualIncome": "0 - 2 Lacs",
+    "employmentType": "Self-employed",
+    "sourceOfIncome": "Business",
+	"PAN_NO": "FDBPS0082T",
+	"otp": "548484"
+}

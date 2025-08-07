@@ -1,0 +1,6 @@
+{
+	"mobile" : "${mobile}",
+	"email" : "${email}",
+	"accessKey" :"${accessKey}",
+	"source" : "${source}"
+}

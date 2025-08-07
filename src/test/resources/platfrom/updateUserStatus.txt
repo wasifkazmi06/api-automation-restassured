@@ -1,0 +1,6 @@
+{
+    "userId": "${userId}",
+    "system": "${system}",
+    "priority": null,
+    "status": "${status}"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flipkart">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+    <test thread-count="1" name="Flipkart">
+        <classes>
+            <class name="flipkart.testFlipkartMain"/>
+            <class name="flipkart.testFlipkartError"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

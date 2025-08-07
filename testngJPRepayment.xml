@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Repayments">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+    <test thread-count="1" name="ManualRepaymentsAndNach">
+        <classes>
+            <class name="lazypay.juspay.repaymentFlow.JPRepaymentTests">
+                <methods>
+                    <include name="verifyLPRepaymentUsingUPI"/>
+                    <include name="verifyLPRepaymentUsingNetBanking"/>
+                    <include name="verifyLPRepaymentUsingDebitCard"/>
+                    <include name="verifyLPRepaymentUsingCreditCard"/>
+                    <include name="verifyLPRepaymentViaAPPusingUPI"/>
+                    <include name="verifyLPRepaymentViaAPPusingDC"/>
+                    <include name="verifyLPRepaymentViaAPPusingCC"/>
+                    <include name="verifyLPRepaymentViaAPPusingNB"/>
+                    <include name="repayDetailsInvalidUser"/>
+                    <include name="verifyValidateVPAInvalidVPA"/>
+                    <include name="savedOptionsInvalidUser"/>
+                    <include name="createOrderUserWithIncorrectAmount"/>
+                    <include name="createOrderUserWithAmountLessThan1"/>
+                    <include name="createOrderUserWithMissingField"/>
+                    <include name="verifyTheRepaymentWithInvalidOutStandingAmount"/>
+                    <include name="verifyTheBillForInvalidUser"/>
+                </methods>
+            </class>
+            <!--
+            <class name="nach.presentment.NACHpresentmentTestBNPL"/>
+            <class name="nach.presentment.NACHpresentmentTestCashLoan"/>
+            -->
+        </classes>
+    </test>
+</suite> <!-- Suite -->

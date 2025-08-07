@@ -1,0 +1,29 @@
+{
+    "mobile": "${mobile}",
+    "preApproveLimit": [
+        {
+            "limit": ${limit},
+            "reason": "${reason}",
+            "decision": ${decision},
+            "product": "${product}",
+            "interestRates": [
+                {
+                    "tenure": 12,
+                    "interestRate": ${interestRate12}
+                },
+                {
+                    "tenure": 9,
+                    "interestRate": ${interestRate9}
+                },
+                {
+                    "tenure": 6,
+                    "interestRate": ${interestRate6}
+                },
+                {
+                    "tenure": 3,
+                    "interestRate": ${interestRate3}
+                }
+            ]
+        }
+    ]
+}

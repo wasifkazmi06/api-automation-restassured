@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Heimdall Automation Suite" annotations="JDK">
+    <test name="APV Heimdall Changes Tests">
+        <packages>
+            <package name="heimdall.apvChanges"/>
+        </packages>
+    </test>
+</suite>

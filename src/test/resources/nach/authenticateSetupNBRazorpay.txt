@@ -1,0 +1,11 @@
+{
+    "product": "${product}",
+    "repayMethod": "${repayMethod}",
+    "repaySetupId": "${repaySetupId}",
+    "requestBody": {
+        "paymentId": "${paymentId}",
+        "respCode": "",
+        "respMessage": ""
+    },
+    "vendor": "${vendor}"
+}

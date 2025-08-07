@@ -1,0 +1,6 @@
+{
+  "policyId": "${policyId}",
+  "tenantId": "${tenantId}",
+  "mobile": "${mobile}"
+}
+

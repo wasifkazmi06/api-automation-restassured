@@ -1,0 +1,40 @@
+{
+    "Invalid_pincode_With6Digit":{"errorCode": "NO_LAT_LONG_FOUND", "errorMsg": "No results found for provided pincode/address"},
+    "Invalid_pincode_Without6Digit":{"errorCode": "INVALID_PINCODE", "errorMsg": "Pincode provided is invalid"},
+    "WithEmptyPincode":{"errorCode": "NO_LAT_LONG_FOUND", "errorMsg": "No results found for provided pincode/address"},
+    "WithNullPincode":{"errorCode": "NO_LAT_LONG_FOUND", "errorMsg": "No results found for provided pincode/address"},
+    "Invalid_source":{"errorCode": "INVALID_SOURCE", "errorMsg": "Source provided is either empty or null"},
+    "WithEmptySource":{"errorCode": "INVALID_SOURCE", "errorMsg": "Source provided is either empty or null"},
+    "WithNullSource":{"errorCode": "INVALID_SOURCE", "errorMsg": "Source provided is either empty or null"},
+    "WithEmptyRequestId":{"errorCode": "INVALID_REQUESTID", "errorMsg": "Request id provided is either empty or null"},
+    "WithNullRequestId":{"errorCode": "INVALID_REQUESTID", "errorMsg": "Request id provided is either empty or null"},
+
+    "WithNullSourceLocation":{"errorCode": "INVALID_SOURCE_LOCATION", "errorMsg": "Source locations provided is either empty or null"},
+    "WithNullTargetLocation":{"errorCode": "INVALID_TARGET_LOCATION", "errorMsg": "Target location provided is either empty or null"},
+
+    "Invalid_BillType":{"errorCode": "INVALID_BILL_TYPE", "errorMsg": "Invalid bill type: Mandatory param billType must be one of [PNG, Electricity, LPG, Landline]"},
+    "WithEmptyBillType":{"errorCode": "INVALID_BILL_TYPE", "errorMsg": "Invalid bill type: Mandatory param billType must be one of [PNG, Electricity, LPG, Landline]"},
+    "WithNullBillType":{"errorCode": "INVALID_BILL_TYPE", "errorMsg": "Invalid bill type: Mandatory param billType must be one of [PNG, Electricity, LPG, Landline]"},
+
+    "WithInvalid_ServiceProvider":{"errorCode": "INVALID_SERVICE_PROVIDER", "errorMsg": "Invalid Service Provider"},
+    "WithNullServiceProvider":{"errorCode": "INVALID_SERVICE_PROVIDER", "errorMsg": "Invalid Service Provider"},
+    "WithEmptyServiceProvider":{"errorCode": "INVALID_SERVICE_PROVIDER", "errorMsg": "Invalid Service Provider"},
+
+
+    "AddressRequest_WithNullServiceProvider":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify service_provider"},
+    "AddressRequest_WithEmptyServiceProvider":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify service_provider"},
+
+    "Invalid_lpgId":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Min and Max length for lpg_id is 17 and 17 respectively"},
+    "WithEmptyLpgId":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify lpg_id"},
+    "WithNullLpgId":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify lpg_id"},
+    "Invalid_telNo":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Min and Max length for tel_no is 10 and 15 respectively"},
+    "WithEmptyTelNo":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify tel_no"},
+    "WithNullTelNo":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify tel_no"},
+    "Invalid_consumerId_Electricity":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Min and Max length for consumer_id is 2 and 20 respectively"},
+    "WithEmptyConsumerId_Electricity":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify consumer_id"},
+    "WithNullConsumerId_Electricity":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify consumer_id"},
+    "WithEmptyBpNo":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify bp_no"},
+    "WithNullBpNo":{"errorCode": "INVALID_REQUEST_DATA", "errorMsg": "Invalid request data: Must specify bp_no"}
+
+}
+

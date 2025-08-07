@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Lazycard Surcharge tests" annotations="JDK" >
+
+    <test name="LAZYCARD Surcharge TESTS">
+        <classes>
+            <class name="neo.transaction.Surcharge"/>
+        </classes>
+    </test>
+</suite>

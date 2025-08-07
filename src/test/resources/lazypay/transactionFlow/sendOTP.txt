@@ -1,0 +1,9 @@
+{
+    "email":"${email}",
+    "mobile":"${mobile}",
+    "source":"${source}",
+    "userDetails":{
+        "firstName":"${firstName}",
+        "lastName":"${lastName}"
+    }
+}

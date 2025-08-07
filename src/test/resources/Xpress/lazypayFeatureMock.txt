@@ -1,0 +1,16 @@
+{
+    "identifiers": {
+        "phone": "${phoneNumber}"
+    },
+    "expiryTime": 7,
+    "expiryUnit": "DAYS",
+    "data": {
+        "bnplLine": null,
+        "rcmDecile": "${rcmDecile}",
+        "isBnplBlocked": null,
+        "maxDPDOnLazyPay": "${maxDPDOnLP}",
+        "monthsSinceLastTransactedDate": 3,
+        "numberOfRepaymentCyclesOnLazyPay": "${RepaymentCycleOnLP}"
+    },
+    "delay": 200
+}

@@ -1,0 +1,6 @@
+{
+    "mobile": "${mobile}",
+    "amount": "${amount}",
+    "merchantTxnId": "${merchantTxnId}",
+    "paymentMode":"${paymentMode}"
+}

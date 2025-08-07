@@ -1,0 +1,14 @@
+{
+    "accountNumber": "${accountNumber}"
+    "accountType": "TERM_DEPOSIT",
+    "amount": "${amount}",
+    "description": "Account Creation Successful",
+    "entityId": "${entityId}",
+    "paymentRef": "${razorpayPaymentId}",
+    "productId": "ACCOUNT_CREATION",
+    "responseDescription": "Account Creation Successful",
+    "schemeCode": "TDPBR",
+    "status": "SUCCESS",
+    "transactionType": "add_product_status"
+
+}

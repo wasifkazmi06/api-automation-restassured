@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Policy And Otp API Automation Suite" annotations="JDK">
+    <test name="US FLOWS">
+        <classes>
+            <class name="platform.otp.policyApiTest"/>
+            <class name="platform.otp.otpApiTest"/>
+        </classes>
+    </test>
+</suite>

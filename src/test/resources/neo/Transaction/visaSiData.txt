@@ -1,0 +1,13 @@
+{
+		"transactionType": "11",
+		"transactionAmount": null,
+		"transactionCurrencyCode": "356",
+		"noOfSI": "05",
+		"frequency": "06",
+		"interestRate": null,
+		"responsibleEntity": null,
+		"interestChargeable": null,
+		"maximumDebitAmount": "000000029900",
+		"urn": "    W3BfXA80Ly",
+		"siValidated": null
+	}

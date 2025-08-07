@@ -1,0 +1,9 @@
+{
+   "amount":"${amount}",
+   "approvedBy": "rewards-sys",
+   "lpUserId": "${lpUserId}",
+   "merchantTxnId": "",
+   "reason": "test",
+   "rewardId": "${rewardId}",
+   "uuId": ""
+ }

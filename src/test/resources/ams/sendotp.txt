@@ -1,0 +1,6 @@
+{
+  "clientId": "${clientId}",
+  "clientSecret": "${clientSecret}",
+  "mobile": "${mobile}"
+}
+

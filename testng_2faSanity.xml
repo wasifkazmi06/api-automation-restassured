@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="2FASanitySuite" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+    <test thread-count="1" name="2FA Sanity Test Cases" preserve-order="true">
+        <groups>
+            <run>
+                <include name="2FA"/>
+            </run>
+        </groups>
+        <classes >
+            <class name="lazypay.transactionFlow.TwoFATests"/>
+            <class name="lazypay.transactionFlow.EligibilityV0Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV1Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV2Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV3Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV4Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV5Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV6Tests"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

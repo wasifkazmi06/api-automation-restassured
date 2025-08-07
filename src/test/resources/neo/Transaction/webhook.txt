@@ -1,0 +1,38 @@
+{
+	"bin": "484441",
+	"txnCurrency": "0356",
+	"description": "Security Credentials Failed",
+	"terminalId": "${terminalId}",
+	"mcc": "5812",
+    "channel":"LOADTEST",
+	"subTemplate": "CVV2_FAIL7",
+	"merchantName": "AMAZON MUMBAI IN-LOAD_TEST",
+	"network": "VISA",
+	"retrievalRefNo": "${rrn}",
+	"cardEnding": "6772",
+	"txnStatus": "PAYMENT_SUCCESS",
+	"merchantId": "AMAZON-Load",
+	"billingCurrency": "0356",
+	"acquirerId": "405343",
+	"amount": "2",
+	"billingAmount": "000000035650",
+	"accqInstituionCode": "405343",
+	"transactionDateTime": "1640135819000",
+    "extTxnId":"${txnRefNo}",
+	"walletList": {
+		"GENERAL": {
+			"balance": "0.0",
+			"currencyCode": "356"
+		}
+	},
+	"entityId": "${entityId}",
+	"proxyCardNo": "${proxyCardNo}",
+	"mobileNo": "${mobile}",
+	"transactionType": "ECOM",
+	"txnOrigin": "ECOM",
+	"merchantLocation": "SRIRAM DHABA PRIVATE LI  Gurgaon      IN",
+	"corporate": "SBLAZYPAY",
+	"txnRefNo": "${txnRefNo}",
+	"txnDate": "1640072120000",
+    "authCode":"${authCode}"
+}

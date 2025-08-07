@@ -1,0 +1,8 @@
+{
+  "paymentMode":"OTP",
+  "txnRefNo":"${txnRefNo}",
+  "otp":"${otp}",
+    "customParams":{
+  }
+}
+

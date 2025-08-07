@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="User Segmentation Suite" annotations="JDK">
+    <test name="US FLOWS">
+        <classes>
+            <class name="neo.usersegmentation.UserSegmentationTests"/>
+        </classes>
+    </test>
+</suite>

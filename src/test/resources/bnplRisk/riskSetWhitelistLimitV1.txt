@@ -1,0 +1,43 @@
+{
+    "mobile": "${mobile}",
+    "reason": "${reason}",
+    "panHash": "${panHash}",
+    "tenant": "${tenant}",
+    "productLimits": {
+        "COF": {
+              "limit": {
+                 "limitRisk1": "${cof_limitRisk1}",
+                 "limitRisk2": "${cof_limitRisk2}",
+                 "limitRisk3": "${cof_limitRisk3}"
+                },
+             "reason": "${reason}",
+             "decision": ${decision_cof},
+            "interestRates": [
+                           {
+                               "tenure": 12,
+                               "interestRate": "${interestRate12}"
+                           },
+                           {
+                               "tenure": 9,
+                               "interestRate": "${interestRate9}"
+                           },
+                           {
+                               "tenure": 6,
+                               "interestRate": "${interestRate6}"
+                           },
+                           {
+                               "tenure": 3,
+                               "interestRate": "${interestRate3}"
+                           }
+                       ]
+        },
+        "BNPL": {
+          "limit": {
+                "limit": "${bnpl_limitRisk1}"
+            },
+            "reason": "${reason}",
+            "decision": ${decision_bnpl},
+            "interestRates": null
+        }
+    }
+}

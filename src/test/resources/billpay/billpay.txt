@@ -1,0 +1,11 @@
+{
+  "billerId": "${billerId}",
+  "customerParams": {
+
+  },
+      "refId":"${refId}",
+      "paidAmount": "${paidAmount}",
+  "authType": "AUTO_OTP",
+  "authId": "12345",
+    "payAgainConsent":"${payAgainConsent}"
+}

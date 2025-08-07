@@ -1,0 +1,22 @@
+{
+    "product": {
+        "productType": "${productType}",
+        "insuranceAmt": 0,
+        "productId": 2,
+        "optInState": "DESELECT",
+        "userPolicyDetailsId": 8828
+    },
+    "amountToPay": "${amountToPay}",
+    "paymentMode": "${paymentMode}",
+    "source": "${source}",
+    "paymentModeDetails": {
+        "paymentMode": "${paymentMode}",
+        "bankName": "${bankName}",
+        "shortName": "${shortName}",
+        "bankCode": "${bankCode}",
+        "cardType": "${cardType}",
+        "payWithSavedCard": "${payWithSavedCard}",
+        "vpa": "${vpa}"
+    },
+    "productType": "${productType}"
+}

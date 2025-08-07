@@ -1,0 +1,48 @@
+{
+ "entity": "event",
+    "account_id": "acc_BWRWpItqvCbGqJ",
+    "event": "${event}",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "${id}",
+                "entity": "payment",
+                "amount": "${amount}",
+                "currency": "INR",
+                "base_amount": 140800,
+                "status": "${status}",
+                "order_id": "${order_id}",
+                "invoice_id": null,
+                "international": false,
+                "method": "emandate",
+                "amount_refunded": 0,
+                "amount_transferred": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": null,
+                "card_id": null,
+                "bank": "UTIB",
+                "wallet": null,
+                "vpa": null,
+                "email": "bhuvnesh.sharma@paysense.in",
+                "contact": "+918800383100",
+                "customer_id": "cust_CpBlf8Z2rCaepD",
+                "token_id": "token_CpBlfse3wlo3zn",
+                "notes": [],
+                "fee": 0,
+                "tax": 0,
+                "error_code": "${error_code}",
+                "error_description": "${error_description}",
+                "error_source": "${error_source}",
+                "error_step": "${error_step}",
+                "error_reason": "${error_reason}",
+                "acquirer_data": {},
+                "created_at": 1706840634
+            }
+        }
+    },
+    "created_at": 1706884921
+}

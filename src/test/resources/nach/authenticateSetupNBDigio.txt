@@ -1,0 +1,11 @@
+{
+    "product": "${product}",
+    "repayMethod": "${repayMethod}",
+    "repaySetupId": "${repaySetupId}",
+    "requestBody": {
+        "paymentId": "${paymentId}",
+        "respCode": "",
+        "respMessage": "{\"id\":\" + ${id} + \"\",\"txn_id\":\"0.3233367117344529\",\"message\":\"Success\",\"npci_txn_id\":\"+ ${npci_txn_id} +\"\"}"
+    },
+    "vendor": "${vendor}"
+}

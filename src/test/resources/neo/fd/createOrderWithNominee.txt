@@ -1,0 +1,11 @@
+{
+    "lpUuid": ${lpUuid},
+    "umUuid": "${umUuid}",
+    "amount": "${amount}",
+    "selectedUpiId": "${upiId}",
+    "nomineeDetails": {
+        "name": "${name}",
+        "relationship": "${relationship}",
+        "dob": "${dob}"
+    }
+}

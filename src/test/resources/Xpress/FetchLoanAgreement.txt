@@ -1,0 +1,5 @@
+
+{
+	"user_id": "${userId}",
+	"terms_accepted": true
+}

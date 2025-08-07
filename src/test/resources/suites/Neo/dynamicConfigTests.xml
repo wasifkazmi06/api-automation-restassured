@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Dynamic Config System Suite" annotations="JDK">
+    <test name="DCS FLOWS">
+        <classes>
+            <class name="neo.dcs.DynamicConfigTest"/>
+        </classes>
+    </test>
+</suite>

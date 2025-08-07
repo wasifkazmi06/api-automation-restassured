@@ -1,0 +1,8 @@
+{
+   "umuuid": "${umuuid}",
+   "userId": "",
+   "type": "${type}",
+   "sensitiveInfo": "",
+   "authToken": "",
+   "refKey": "${refKey}"
+ }

@@ -1,0 +1,6 @@
+{
+    "lpUuid": ${lpUuid},
+    "umUuid": "${umUuid}",
+    "amount": "${amount}",
+    "selectedUpiId": "${upiId}"
+}

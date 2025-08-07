@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BNPLSanitySuite" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="1" name="BNPL Sanity Test Cases" preserve-order="true">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes >
+            <class name="lazypay.transactionFlow.EligibilityV0Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV1Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV2Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV3Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV4Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV5Tests"/>
+            <class name="lazypay.transactionFlow.EligibilityV6Tests"/>
+            <class name="lazypay.transactionFlow.LinkAPITest"/>
+            <class name="lazypay.transactionFlow.InitiatePayV0Tests"/>
+            <class name="lazypay.transactionFlow.InitiatePayV1Tests"/>
+            <class name="lazypay.transactionFlow.InitiatePayV2Tests"/>
+            <class name="lazypay.transactionFlow.InitiatePayV4Tests"/>
+            <class name="lazypay.transactionFlow.InitiatePayV5Tests"/>
+            <class name="lazypay.transactionFlow.PayV0WithOTPTests"/>
+            <class name="lazypay.transactionFlow.PayV4WithOTPTests"/>
+            <class name="lazypay.transactionFlow.PayV5WithOTPTests"/>
+            <class name="lazypay.transactionFlow.PayV0WithTokenTests"/>
+            <class name="lazypay.transactionFlow.PayV4WithTokenTests"/>
+            <class name="lazypay.transactionFlow.PayV5WithTokenTests"/>
+            <class name="lazypay.transactionFlow.MerchantRefundTest"/>
+            <class name="lazypay.transactionFlow.PayUAggregatorTests"/>
+            <class name="lazypay.transactionFlow.TwoFATests"/>
+            <class name="lazypay.transactionFlow.AutoDebitV1MITests"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
+

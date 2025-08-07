@@ -1,0 +1,24 @@
+digilocker_data:
+  lp_apiKey: "c87ae6d51cc144f58be5995280b6590e"
+  mbe_apiKey: "2ac637d16d2748d7a9b21a1864dc29b6"
+  ps_apiKey: "c3a0465b3e434fc4880a6543bdcb2fb6"
+  smb_apiKey: "4a015180138f47e596dfb8462c16b8c0"
+  redirectURL: "www.google.com"
+  principalID: "test1"
+  txn_id : "test1234-1724417533429"
+  txn_id_startedState: "1-1724649244891"
+  txn_id_approvedState: "test1234-1724417533429"
+  principalID_approvedState : "test11-1724656392954"
+  principalID_declinedState : "test-auto-declined-2888"
+  source1: "LP"
+  source2: "PS"
+  source3: "SMB"
+  source4: "MBE"
+  txn_id_autoDeclinedState: "5643772675361385359-1724844884389"
+  ps_principalId : "KashTest1234"
+  smb_principalId : "KashTest123"
+  ps_txnId : "KashTest1234-1727793677382"
+  smb_txnId : "KashTest123-1727793215018"
+
+
+

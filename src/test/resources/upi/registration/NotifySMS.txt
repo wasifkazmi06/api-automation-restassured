@@ -1,0 +1,11 @@
+{
+       "deviceIds": [
+           "${deviceId}"
+       ],
+       "mobile": "${mobile}",
+       "simIds": [
+           "${simId}"
+       ],
+       "status": "${status}",
+       "upiRegistrationId": ${upiRegistrationId}
+}

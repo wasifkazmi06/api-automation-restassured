@@ -1,0 +1,12 @@
+
+{
+    "request_id": "${request_id}",
+    "account_update": {
+        "account_id": "${account_id}",
+        "product_version_update": {
+            "product_version_id": "${product_version_id}",
+            "schedule_migration_type": "SCHEDULE_MIGRATION_TYPE_RECREATE_ALL_SCHEDULES_AND_GROUPS"
+        }
+    }
+}
+

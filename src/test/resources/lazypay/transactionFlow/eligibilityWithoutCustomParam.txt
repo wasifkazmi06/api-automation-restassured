@@ -1,0 +1,22 @@
+{
+    "amount": {
+        "currency": "${currency}",
+        "value": "${amount}"
+    },
+    "address": {
+        "zip": "${zip}",
+        "country": "${country}",
+        "city": "${city}",
+        "street1": "${street1}",
+        "street2": "${street2}",
+        "state": "${state}"
+    },
+
+    "source": "CITRUS_SDK",
+    "userDetails": {
+        "firstName": "${firstName}",
+        "lastName": "${lastName}",
+        "mobile": "${mobile}",
+        "email": "${email}"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "saleTxnId": "${saleTxnId}",
+  "email": "${email}",
+  "mobile": "${mobile}",
+  "merchantAccessKey": "",
+  "cancellationAmount": "${cancellationAmount}"
+}

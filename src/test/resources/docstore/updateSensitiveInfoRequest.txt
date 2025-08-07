@@ -1,0 +1,9 @@
+{
+    "status": "${status}",
+    "metaData": {
+        "name": "Updated",
+        "secondname": "Testname",
+        "testdata": "123!@#asdASDaa..."
+    },
+    "refKey": "${refKey}"
+}

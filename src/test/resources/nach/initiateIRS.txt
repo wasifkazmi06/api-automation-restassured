@@ -1,0 +1,13 @@
+{
+    "requestBody": {
+        "accountNo": "${accountNo}",
+        "bankName": "${bankName}",
+        "accountHolderName": "${accountHolderName}",
+        "ifsc": "${ifsc}",
+        "refKey": ""
+    },
+    "consent": true,
+    "product": "${product}",
+    "repayMethod": "${repayMethod}",
+    "source": "GENERIC"
+}

@@ -1,0 +1,7 @@
+{
+    "status": "success",
+    "payload": "{\"paymentId\":\"${razorpayPaymentId}\",\"data\":{\"nameValuePairs\":{\"razorpay_signature\":\"${razorpaySignature}\",\"checkout_logo\":\"https:\\\/\\\/cdn.razorpay.com\\\/logo.png\",\"razorpay_payment_id\":\"${razorpayPaymentId}\",\"razorpay_order_id\":\"${razorpayOrderId}\",\"custom_branding\":\"0\",\"org_name\":\"Razorpay Software Private Ltd\",\"org_logo\":\"\"}},\"orderId\":\"${razorpayOrderId}\",\"signature\":\"${razorpaySignature}\"}",
+    "lpUuid": ${lpUuid},
+    "location": "26.800377,80.86601",
+    "ipAddress": "110.235.233.50"
+}

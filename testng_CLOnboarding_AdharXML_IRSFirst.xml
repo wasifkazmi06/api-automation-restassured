@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite" configfailurepolicy="continue">
+    
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+  <test thread-count="1" name="CL_Initiate">
+    <classes>
+        <class name="clOnboarding.TestCLMain">
+        <methods>
+            <include name="initiateCreditLine" />
+        </methods>
+        </class>
+    </classes>
+  </test>
+  <test thread-count="1" name="Adhar XML 1: Upload Doc only">
+        <classes>
+            <class name="multiDoc.TestAadhaarXmlApprovedCase">
+            <methods>
+                <exclude name="VerifyStatueCodeOfAction" />
+                <exclude name="VerifykycStatusAfterApproved" />
+            </methods>
+            </class>
+        </classes>
+  </test>
+    <test thread-count="1" name="CL_BankVerification">
+        <classes>
+            <class name="clOnboarding.TestCLMain">
+                <methods>
+                    <include name="reprocessOnboarding" />
+                    <include name="bankVerification" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+  <test thread-count="1" name="IRS_Collection">
+        <classes>
+            <class name="irs.TestIRSMain">
+                <methods>
+                    <exclude name="processPhyNachFileRejectIRS" />
+                </methods>
+            </class>
+        </classes>
+   </test>
+    <test thread-count="1" name="Adhar XML 2: Approve KYC">
+        <classes>
+            <class name="multiDoc.TestAadhaarXmlApprovedCase">
+                <methods>
+                    <include name="VerifyStatueCodeOfAction" />
+                    <include name="VerifykycStatusAfterApproved" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UPI Secure">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+    <test thread-count="1" name="UPI LP Transactional Flow">
+        <classes>
+            <class name="upi.bnpl.LPUPITransactionalFlowTests"/>
+            <!--<class name="upiLPSecure.TestUPIError">
+                <methods>
+                    <exclude name="AcquisitionChannelMandatoryCLEligibility" />
+                    <exclude name="AcquisitionChannelIncorrectCLEligibility" />
+                    <exclude name="MerchantNameBlacklistedFOCMerchant" />
+                    <exclude name="MerchantVPABlacklistedFOCMerchant" />
+                    <exclude name="MerchantMCCBlacklistedFOCMerchant" />
+                    <exclude name="FOCMerchantDeviceIdInvalidDeviceIdsInvalid" />
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite> <!-- Suite -->

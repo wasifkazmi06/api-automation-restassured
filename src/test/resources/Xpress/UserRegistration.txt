@@ -1,0 +1,8 @@
+{
+    "phone": "${phone}",
+    "email": "test@gmail.com",
+    "terms_accepted": true,
+    "phone_verified": true,
+    "partner_user_id": "${userId}",
+    "whatsapp_consent": false
+}

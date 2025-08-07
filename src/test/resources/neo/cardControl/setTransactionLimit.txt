@@ -1,0 +1,5 @@
+{
+  "offlineTxnLimit": ${offlineTxnLimit},
+  "onlineTxnLimit": ${onlineTxnLimit},
+  "uuid": ${uuid}
+}

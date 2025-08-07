@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Statement cron">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+    <test thread-count="1" name="LP Statement Generation Cron Flow">
+        <classes>
+            <class name="lazypay.statementGenCronFlow.StatementGenerationCronTest">
+                  <methods>
+                      <include name="getInitialLateFeeAmount"/>
+                      <include name="initiateStatementGenerationCron"/>
+                      <include name="verifyStatementCreatedForCurrentCycle"/>
+                      <include name="verifyLastCycleLpOutstanding"/>
+                      <include name="verifyStatementGenerationCron"/>
+                      <include name="verifyDueLateFeeAndLateFeeAmount"/>
+                      <include name="verifyUserDueDate"/>
+                      <include name="verifyUserDueSince"/>
+                      <include name="verifyStatementIDMappingWithTransaction"/>
+                      <include name="verifyStatementStatusForCurrentCycle"/>
+                      <include name="verifyTotalDueAmountFromStatement"/>
+                      <include name="verifyCycleEndDateFromStatement"/>
+                      <include name="verifyCarryFwdDueFromStatement"/>
+                      <include name="verifyDueDateOfStatement"/>
+                      <include name="verifyAutoRepayStatementCreated"/>
+                      <include name="verifyUserStatementCommunicationScheduled"/>
+                      <include name="sendStatementCronTest"/>
+                      <include name="verifySendStatementIsDelivered"/>
+                  </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

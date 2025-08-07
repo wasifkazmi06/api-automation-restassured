@@ -1,0 +1,11 @@
+{
+"assetId": ${assetId},
+"status": ["declined","accepted","unassigned"],
+"teamId": null,
+"clusterId": null,
+"taskId":${taskId},
+"from": null,
+"to": null,
+"taskIds":null,
+"licensePlate": null
+}

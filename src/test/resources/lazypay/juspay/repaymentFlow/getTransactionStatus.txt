@@ -1,0 +1,7 @@
+{
+    "orderId": "${orderId}",
+    "optInState": "${optInState}",
+    "userPolicyDetailsId": "${userPolicyDetailsId}",
+    "txnId": "${txnId}",
+    "isCancelledTxn": "${isCancelledTxn}"
+}

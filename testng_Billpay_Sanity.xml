@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BNPLSanitySuite" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="1" name="Billpay Sanity Test Cases" preserve-order="true">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes >
+            <class name="billpay.CategoriesTest"/>
+            <class name="billpay.GetBillerTest"/>
+             <class name="billpay.SearchBillerTest"/>
+             <class name="billpay.UpcomingbillsTest"/>
+             <class name="billpay.UserbillsTest"/>
+            <class name="billpay.UserLinkedBillidTest"/>
+            <class name="billpay.BillfetchTests"/>
+            <class name="billpay.BillpayTest"/>
+            <class name="billpay.BillerDetailsTests"/>
+            <class name="billpay.mobilePrepaid.GenerateRefIdTest"/>
+            <class name="billpay.mobilePrepaid.PrepaidCircleinfoTest"/>
+            <class name="billpay.mobilePrepaid.PrepaidOperatorAndCircleTest"/>
+            <class name="billpay.mobilePrepaid.PrepaidOperatorCircleForMobileTest"/>
+            <class name="billpay.mobilePrepaid.PrepaidOperatorTest"/>
+            <class name="billpay.mobilePrepaid.PrepaidRechargePlansTest"/>
+            <class name="billpay.UserLinkedBillverifiedTest"/>
+            <class name="billpay.BillPaymentStatusTest"/>
+            <class name="billpay.complaints.RegisterComplaintsTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

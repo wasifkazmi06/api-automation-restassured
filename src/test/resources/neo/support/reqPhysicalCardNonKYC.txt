@@ -1,0 +1,15 @@
+{
+	"uuid": 5830086,
+	"addressDto": {
+		"address": {
+			"title": "DELIVERY",
+			"address1": "D-46",
+			"address2": "D - Sector",
+			"city": "TUTICORIN",
+			"state": "TAMIL NADU",
+			"country": "INDIA",
+			"pinCode": "628005",
+			"isKycAddress": true
+		}
+	}
+}

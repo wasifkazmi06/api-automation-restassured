@@ -1,0 +1,9 @@
+{
+  "billerId": "${billerId}",
+  "customerParams": {
+
+  },
+  "authType": "AUTO_OTP",
+  "authId": "12345"
+}
+

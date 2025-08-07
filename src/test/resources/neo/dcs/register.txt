@@ -1,0 +1,4 @@
+{
+    "clientName": "${clientName}",
+    "verticalId": "${verticalId}"
+}

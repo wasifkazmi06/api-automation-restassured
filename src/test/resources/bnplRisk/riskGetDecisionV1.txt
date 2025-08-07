@@ -1,0 +1,65 @@
+{
+    "email": "${email}",
+    "emailHash": "${emailHash}",
+    "mobile": ${mobile},
+    "mobileHash": "${mobileHash}",
+    "firstName": "${firstName}",
+    "middleName": "${middleName}",
+    "lastName": "${lastName}",
+    "address": {
+        "street1": "${street1}",
+        "street2": "${street2}",
+        "city": "${city}",
+        "state": "${state}",
+        "country": "${country}",
+        "zip": "${zip}"
+    },
+   "amount": {
+         "amount": ${amount},
+         "currency": "${currency}"
+     },
+    "merchantAccessKey": "${merchantAccessKey}",
+        "sku": [
+               {
+                   "productId": "1zomato0002",
+                   "description": "1zomatoTestDescript",
+                   "attributes": {
+                       "size": "32",
+                       "color": "Green"
+                   },
+                   "imageUrl": "www.zomato1.com",
+                   "shippable": true,
+                   "skus": [
+                       {
+                           "skuId": "1zomatoskuID00123778",
+                           "price": 10000.0,
+                           "attributes": {
+                               "size": "28",
+                               "color": "28"
+                           }
+                       }
+                   ]
+               }
+           ],
+     "requestId": "${requestId}",
+       "integrationMethod": "${integrationMethod}",
+       "timestamp": ${timestamp},
+   "userParams": {
+          "isTransacting": ${isTransacting},
+          "uuid": "${uuid}",
+          "creditLimit": "${creditLimit}",
+          "isBlocked": ${isBlocked},
+          "optedOut": ${optedOut}
+      },
+     "requestApi": "${requestApi}",
+    "deviceInfo": null,
+    "deviceRuleEnabled": ${deviceRuleEnabled},
+     "products" : [
+                "${products}"
+        ],
+    "merchantId": "${merchantId}",
+    "subMerchantIdentifier": "${subMerchantIdentifier}",
+    "subMerchantId": "${subMerchantId}",
+    "doMlFraudCheck": ${doMlFraudCheck},
+    "tenant": "${tenant}"
+}

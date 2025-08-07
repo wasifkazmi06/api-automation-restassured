@@ -1,0 +1,56 @@
+{
+    "identifiers": {
+        "masterUserId": "${masterUserId}"
+    },
+    "expiryTime": 7,
+    "expiryUnit": "DAYS",
+    "data": {
+        "result": {
+            "darwin_v6_uptop_v2_non_sms": [
+                {
+                    "data": {
+                        "probability": "${bureau_pg_score}",
+                        "result": 0
+                    },
+                    "message": "success",
+                    "segment_name": "bureau_pg",
+                    "status": 200
+                },
+                {
+                    "data": {
+                        "probability": "${bureau_banking_pg_score}",
+                        "result": 0
+                    },
+                    "message": "success",
+                    "segment_name": "bureau_banking_pg",
+                    "status": 200
+                }
+            ],
+            "darwin_v6_uptop_v2_sms": [
+                {
+                    "segment_name": "bureau_sms_pg",
+                    "message": "success",
+                    "status": 200,
+                    "data": {
+                        "result": 0,
+                        "probability": "${bureau_sms_pg_score}"
+                    }
+                },
+                {
+                    "segment_name": "bureau_banking_sms_pg",
+                    "message": "success",
+                    "status": 200,
+                    "data": {
+                        "result": 0,
+                        "probability": "${bureau_banking_sms_pg_score}"
+                    }
+                }
+            ]
+        },
+        "has_bureau": "${has_bureau}",
+        "has_pg": "${has_pg}",
+        "has_banking": "${has_banking}",
+        "has_sms": "${has_sms}"
+    },
+    "delay": 500
+}

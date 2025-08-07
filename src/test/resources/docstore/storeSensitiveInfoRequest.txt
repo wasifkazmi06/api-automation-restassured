@@ -1,0 +1,8 @@
+{
+	"uuid":"${uuid}",
+	"type":"${sensitiveInfoType}",
+	"sensitiveInfo":"${sensitiveInfoValue}",
+	"metaData": {"name": "TEST", "secondname": "USER", "testdata":"123!@#asdASD"},
+	"status": "${status}",
+	"allowDuplitcate": "${allowDuplitcate}"
+}

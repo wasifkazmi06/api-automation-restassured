@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lazypay Repayment">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+    <test thread-count="1" name="LazyPay Repayment">
+        <classes>
+            <class name="lazypay.repaymentFlow.LPRepaymentTests"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

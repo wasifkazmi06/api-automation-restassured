@@ -1,0 +1,9 @@
+{
+    "request_id": "${request_id}",
+    "plan_update": {
+       "plan_id": "${plan_id}",
+        "associate_account_update": {
+                 "account_id": "${account_id}"
+        }
+    }
+}

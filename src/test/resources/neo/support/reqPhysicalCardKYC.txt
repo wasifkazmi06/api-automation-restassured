@@ -1,0 +1,17 @@
+{
+   "addressDto": {
+     "address": {
+       "address1": "S R Patil",
+       "address2": "Apoorva Nagar",
+       "aliasName": "RA",
+       "city": "HUBLI",
+       "country": "INDIA",
+       "kycAddress": true,
+       "pinCode": "580030",
+       "state": "KARNATAKA",
+       "title": "DELIVERY"
+     }
+   },
+   "scheduledTrigger": true,
+   "uuid": 12603348
+ }

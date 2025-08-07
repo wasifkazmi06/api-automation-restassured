@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Transaction Flow Tests" annotations="JDK" >
+
+    <test name="LAZYCARD TRANSACTION TESTS">
+        <packages>
+            <package name="neo.transaction"/>
+        </packages>
+    </test>
+</suite>

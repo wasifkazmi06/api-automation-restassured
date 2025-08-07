@@ -1,0 +1,11 @@
+{
+    "mobile":"${mobile}",
+    "limit": ${limit},
+    "reason": "${reason}",
+    "decision": ${decision},
+    "bnpl_line": ${bnpl_line},
+    "pan_hash":"${pan_hash}",
+    "bnpl_decision": ${bnpl_decision},
+    "lazycard_decision": "${lazycard_decision}",
+    "lazycard_line":"${lazycard_line}"
+}

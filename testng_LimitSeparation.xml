@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DocStore">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+
+    <test thread-count="1" name="LimitSeparation">
+        <classes>
+            <class name="limitSeparationCL.TestMainLimitSeparation"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XpressUserCreation" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+  <test thread-count="1" name="End to End journey cases for BNPL xsell appoval method">
+      <classes>
+          <class name="Xpress.EndToEndXsellHappyFlows">
+          </class>
+      </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PayUAggregatorSuite" configfailurepolicy="continue">
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="1" name="PayU Aggregator Test Cases">
+        <groups>
+            <run>
+                <include name="agg"/>
+            </run>
+        </groups>
+    <classes>
+        <class name="lazypay.transactionFlow.EligibilityTests"/>
+        <class name="lazypay.transactionFlow.InitiatePayTests"/>
+        <class name="lazypay.transactionFlow.PayTests"/>
+        <class name="lazypay.transactionFlow.PayWithTokenTests"/>
+    </classes>
+    </test>
+</suite> <!-- Suite -->

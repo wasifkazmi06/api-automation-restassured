@@ -1,0 +1,9 @@
+{
+    "request_id": "${request_id}",
+    "plan_update": {
+        "plan_id": "${plan_id}",
+        "supervisor_contract_version_update": {
+            "supervisor_contract_version_id": "${supervisor_contract_version_id}"
+        }
+    }
+}

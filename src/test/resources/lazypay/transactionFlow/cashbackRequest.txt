@@ -1,0 +1,9 @@
+
+ {
+     "lpUserId": "${lpUserId}",
+     "uuId": "",
+     "amount":"${amount}",
+     "approvedBy": "rewards-sys",
+     "parentTxnId": "${parentTxnId}",
+     "campaignId": "${campaignId}"
+ }

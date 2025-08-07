@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BNPLRegressionSuite" configfailurepolicy="continue">
+    
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+    <test thread-count="5" name="BNPL Regression Test Cases">
+        <classes>
+            <class name="lazypay.transactionFlow.LinkAPITest"/>
+            <class name="lazypay.transactionFlow.EligibilityTests"/>
+            <class name="lazypay.transactionFlow.InitiatePayTests"/>
+            <class name="lazypay.transactionFlow.PayTests"/>
+            <class name="lazypay.transactionFlow.PayWithTokenTests"/>
+            <class name="lazypay.transactionFlow.MerchantRefundTest"/>
+            <class name="lazypay.transactionFlow.TwoFATests"/>
+            <class name="lazypay.transactionFlow.AutoDebitV1MITests"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

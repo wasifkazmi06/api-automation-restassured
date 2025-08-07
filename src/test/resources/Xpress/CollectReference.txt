@@ -1,0 +1,6 @@
+{
+"fullName":"${contactFullName}",
+"phoneNumber":"${contactPhoneNumber}",
+"relation": 1,
+"referenceMode": 1
+}

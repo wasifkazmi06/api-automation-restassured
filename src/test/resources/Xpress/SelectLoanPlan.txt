@@ -1,0 +1,6 @@
+{
+	"loan": {
+		"plan": ${plan},
+		"amount": ${amount}
+	}
+}

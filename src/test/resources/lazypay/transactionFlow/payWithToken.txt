@@ -1,0 +1,41 @@
+{
+  "paymentMode":"AUTO_DEBIT",
+  "amount": {
+    "value":"${value}",
+    "currency":"${currency}"
+  },
+  "userDetails":{
+    "mobile":"${mobile}",
+    "email":"${email}",
+    "firstName":"${firstName}",
+    "lastName":"${lastName}"
+  },
+   "merchantTxnId":"${merchantTxnId}",
+ "returnUrl":"http://test",
+"source":"CITRUS_SDK",
+  "notifyUrl":"http://test",
+"address":{"street1":"street1","street2":"street2","city":"pune","state":"MH","country":"IND","zip":"411045"}
+  ,
+  "productSkuDetails":[{"productId":"prod4","description":"desc.....",
+                        "attributes":{"size":"32","color":"blue"},
+                        "imageUrl":"www.google.com",
+                        "shippable":true,
+  "skus":[{"skuId":"sku1","price":10,"attributes":{"size":"30","color":"32"}}]}]
+ ,
+  "customParams": {
+      "customProduct":{
+          "productId":"PRDT145632",
+          "description":"Book",
+           "attributes":{"size":"32","color":"blue"}
+         },
+    "Product Quantity": "10",
+    "Product Quality": "Good",
+    "Product Delivery Time": "On Time",
+    "no1234567890123456789012345678": "abcdefghijk",
+    "no7": "no-7",
+    "no8": "no-8"
+  }
+  }
+
+
+

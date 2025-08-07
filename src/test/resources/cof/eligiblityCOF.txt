@@ -1,0 +1,28 @@
+{
+  "userDetails": {
+    "address": {
+      "line1": "ADBE villa, Plot no 99, flat 102",
+      "line2": "SV road, Khar west, Mumbai",
+      "pincode": "400052"
+    },
+    "dob": "1990-12-12",
+    "email": "rajesh.bhasin@gmail.com",
+    "firstName": "Rajesh",
+    "gender": "male",
+    "lastName": "Bhasin",
+    "maritalStatus": "married",
+    "middleName": "",
+    "mobile": "${mobile}",
+    "pan": "${pan}",
+    "employmentType": "salaried",
+    "fatherName": "test user"
+  },
+  "amount": {
+    "value": "3001",
+    "currency": "INR"
+  },
+"cbpConsent": {
+    "value": true,
+    "consentTime": "${time}"
+  }
+}

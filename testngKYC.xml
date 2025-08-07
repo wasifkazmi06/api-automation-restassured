@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KYC">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+
+    <test thread-count="1" name="KYC">
+        <classes>
+            <class name="kyc.ckyc.CkycHappyFlow"/>
+            <class name="kyc.ckyc.InitiateKYCTests"/>
+            <class name="kyc.ckyc.UploadDocV3Tests"/>
+            <class name="kyc.ckyc.IncomeFormUploadV3Tests"/>
+            <class name="kyc.ckyc.SelfieUploadDocV3Tests"/>
+            <class name="kyc.ckyc.ReKYCExpiryStatus"/>
+            <class name="kyc.ckyc.ReportToCKYCTests"/>
+            <class name="kyc.ckyc.CheckKYCStatus"/>
+            <class name="kyc.ckyc.V4KycStatusTests"/>
+            <class name="kyc.ckyc.V1LatestSuccessKycTests"/>
+            <class name="kyc.panDelink.PanDelinkTests"/>
+            <class name="kyc.ckyc.FetchPanDetailsTests"/>
+            <class name="kyc.ckyc.CheckProductEligibilityTests"/>
+            <class name ="kyc.ckyc.CaseDetailsTests"/>
+            <class name ="kyc.ckyc.FetchCKYCNumberTests"/>
+            <class name="kyc.ckyc.DeactivateKycCaseTests"/>
+            <class name="kyc.digilocker.StartLinkTests"/>
+            <class name="kyc.digilocker.GetResultsTest"/>
+            <class name="kyc.digilocker.StatusTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+{
+    "merchantTxnId":"${merchantTxnId}",
+    "amount": {
+      "value": "${value}",
+      "currency": "${currency}"
+    },
+    "refundTxnId":"${refundTxnId}",
+    "isSkipVelocityCheck":"${isSkipVelocityCheck}"
+}

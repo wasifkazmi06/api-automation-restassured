@@ -1,0 +1,49 @@
+geoLocation_testData:
+  address: "Test"
+  pincode: "587201"
+  requestId: "001"
+  source1: "LP"
+  source2: "PS"
+  invalidPincode1: "123456"
+  invalidPincode2: "635"
+  invalidSource: "LazyPay"
+proximity_Distance_testData:
+  sourceLocations:
+    - {lat: 15.9094349 , lng: 75.667356}
+  targetLocation:
+    lat: 15.937216
+    lng: 75.911483
+billTypes_testData:
+  - type: "PNG"
+    serviceproviders:
+      - Indraprastha Gas Limited
+      - Adani Gas Limited
+      - Mahanagar Gas Limited
+    fields:
+      - bp_no
+  - type: "LPG"
+    serviceproviders:
+      - Bharat Gas
+      - HP
+    fields:
+      - lpg_id
+  - type: "Landline"
+    serviceproviders:
+      - BSNL
+      - MTNL
+    fields:
+      - tel_no
+      - city
+  - type: "Electricity"
+    serviceproviders:
+      - BESCOM
+    fields:
+      - consumer_id
+address_rquestData:
+  lpg_id: "10000000050431060"
+  tel_no: "022-21730600"
+  city: "Mumbai"
+  electricity_consumer_id: "1012395000"
+  png_consumer_id: "1000082138"
+  bp_no: "40005126226"
+

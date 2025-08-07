@@ -1,0 +1,4 @@
+{
+    "date": "${date}T18:16:00.286354Z",
+    "amount": "${amount}"
+}

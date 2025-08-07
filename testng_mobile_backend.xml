@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="mobileApi.TestNeedHelpCategorySearch"/>
+      <class name="mobileApi.TestOfferDetail"/>
+      <class name="mobileApi.TestMerchantList"/>
+      <class name="mobileApi.TestAddBankForm"/>
+      <class name="mobileApi.TestCheckOnboardingStatus"/>
+      <class name="mobileApi.TestSaveGeoLocation"/>
+      <class name="mobileApi.TestContactSyncSave"/>
+      <class name="mobileApi.TestAddUserBankAccount"/>
+      <class name="mobileApi.TestOffersGridScreen"/>
+      <class name="mobileApi.TestNeedHelpForNode"/>
+      <class name="mobileApi.TestContactSyncInit"/>
+      <class name="mobileApi.TestCreateNeedHelpTicket"/>
+      <class name="mobileApi.TestGetNeedHelpForm"/>
+      <class name="mobileApi.TestNeedHelpGetTree"/>
+      <class name="mobileApi.TestGetUserBankAccounts"/>
+      <class name="mobileApi.TestDeviceConfig"/>
+      <class name="mobileApi.TestGetPANForm"/>
+      <class name="mobileApi.TestGetViewBill"/>
+      <class name="mobileApi.TestInitiateCreditline"/>
+      <class name="mobileApi.TestLpTab"/>
+      <class name="mobileApi.TestGetIRSBankForm"/>
+      <class name="mobileApi.TestGetIRSInfoScreen"/>
+      <class name="mobileApi.TestGetIRSStatus"/>
+      <class name="mobileApi.TestTentativePlans"/>
+      <class name="mobileApi.TestShowEmi"/>
+      <class name="mobileApi.TestLoanAccount"/>
+      <class name="mobileApi.TestGetIRSStatus"/>
+      <class name="mobileApi.TestApplyLoan"/>
+      <class name="mobileApi.TestBankTNC"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

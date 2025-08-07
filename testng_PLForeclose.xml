@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite" configfailurepolicy="continue">
+    
+        <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+  <test thread-count="1" name="CL_Initiate">
+    <classes>
+        <class name="loanDisbursal.TestLoanDisbursalMain"/>
+    </classes>
+  </test>
+
+  <test thread-count="1" name="Loan_Foreclose">
+        <classes>
+            <class name="loanForeclose.TestMainLoanForeclose"/>
+        </classes>
+  </test>
+</suite> <!-- Suite -->

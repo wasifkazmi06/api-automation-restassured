@@ -1,0 +1,7 @@
+{
+    "mobile": "${mobile}",
+    "otp": "${otp}",
+    "whatsAppConsent": "${whatsAppConsent}",
+    "clientId": "${clientId}",
+    "otpId": "${otpId}"
+}

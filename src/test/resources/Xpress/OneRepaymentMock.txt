@@ -1,0 +1,13 @@
+{
+    "identifiers": {
+       "phone": "${phoneNumber}"
+    },
+    "expiryTime": 7,
+    "expiryUnit": "DAYS",
+    "data": {
+        "ncmDecile": 1,
+        "totalCount180": 10.0,
+        "isTransacted": true
+    },
+    "delay": 200
+}

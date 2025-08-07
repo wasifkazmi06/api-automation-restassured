@@ -1,0 +1,14 @@
+verifyUpi_testData:
+  upiId: "sangammalkania@okhdfcbank"
+  umUuid: 5430719225560089986
+  lpUuid: 5839517
+  upiId2: "7506500085@upi"
+  mobile: 9478686855
+fdDetails_testData:
+  fdId: 1052
+  entityId: "6d3c8e58-1820-4577-ab30-dae9f64a283c"
+createOrder_nomineedetails:
+  amount: "700"
+  name: "test_5839517"
+  relationship: "BROTHER"
+  dob: "19/09/1996"

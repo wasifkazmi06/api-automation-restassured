@@ -1,0 +1,11 @@
+{
+  "app": "ANDROID",
+  "imei": "55fcc8dc25ab9062",
+  "initiatingChannel": "MOB",
+  "ip": "0.0.0.0",
+  "os": "android",
+  "sourceSystem": "MBE",
+  "userId": "${userId}",
+  "billerId": "${billerId}",
+
+}

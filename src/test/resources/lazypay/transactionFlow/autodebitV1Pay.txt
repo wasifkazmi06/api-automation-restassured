@@ -1,0 +1,13 @@
+{
+  "merchantTxnId": "${mtx}",
+  "source": "${source}",
+  "amount": {
+    "value": "${amount}",
+    "currency": "${currency}"
+  },
+  "userDetails": {
+    "mobile": "${mobile}"
+  },
+  "customParams": {
+  }
+}
