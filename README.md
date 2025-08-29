@@ -126,9 +126,6 @@ Contributions are welcome! Follow these steps to contribute:
 4. Push to the branch (git push origin feature/your-feature-name). 
 5. Create a Pull Request. 
 ---
-## License :scales: 
-This project is licensed under the MIT License. See the <./LICENSE|LICENSE> file for more details. 
----
 ## Contact & Support :mailbox: 
 Author: Wasif Kazmi 
 - Email: wasifkazmi06@gmail.com 
