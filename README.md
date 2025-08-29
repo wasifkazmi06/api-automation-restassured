@@ -106,5 +106,5 @@ Contributions are welcome! Follow these steps to contribute:
 Author: Wasif Kazmi 
 - Email: wasifkazmi06@gmail.com 
 - LinkedIn: www.linkedin.com/in/wasif-kazmi-30798219
--  
+ 
 Feel free to open an issue for suggestions, bugs, or queries! :rocket: 
