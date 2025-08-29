@@ -93,30 +93,6 @@ timeout=5000
 • Regression Tests - Ensures no existing functionality is broken. 
 • Negative Tests - Handles invalid scenarios ensuring proper error handling. 
 ---
-## Sample Code Snippet :wrench: 
-Here’s how an API test function would look in the framework: 
-```java
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import org.testng.Assert;
-allurereport.orgallurereport.org
-Introduction
-Official Documentation for Allure Report — Open-source HTML automation test reporting tool
-
-import org.testng.annotations.Test;
-public class ExampleApiTest {
-    @Test
-    public void validateGetEndpoint() {
-        Response response = RestAssured
-                .given()
-                .baseUri("https://api.example.com")
-                .when()
-                .get("/endpoint");
-        Assert.assertEquals(response.getStatusCode(), 200, "Expected status code is 200");
-        Assert.assertTrue(response.getBody().asString().contains("success"), "Response body validation failed!");
-    }
-}
-``` 
 ---
 ## Contributing :hammer_and_wrench: 
 Contributions are welcome! Follow these steps to contribute: 
